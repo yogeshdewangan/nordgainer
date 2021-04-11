@@ -1,0 +1,3 @@
+2021-04-11 20:53:30.244413 - First 15 min high: 2946.8 | low: 2916.3 | open: 2928.0
+2021-04-11 20:53:54.395827 - [Order Placed] HEROMOTOCO | sell | price: 2915.6 | quantity: 10 | 
+2021-04-11 20:53:56.787418 - [Order Placed] HEROMOTOCO | buy | price: 2919.1 | quantity: 10 | Closed

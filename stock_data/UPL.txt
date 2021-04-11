@@ -1,0 +1,7 @@
+2021-04-11 20:53:51.994984 - First 15 min high: 656.0 | low: 646.1 | open: 656.0
+2021-04-11 20:53:53.226904 - [Order Placed] UPL | sell | price: 645.45 | quantity: 10 | 
+2021-04-11 20:53:53.361993 - [Order Placed] UPL | buy | price: 642.2 | quantity: 10 | Profit Booked
+2021-04-11 20:53:53.378004 - [Order Placed] UPL | sell | price: 643.3 | quantity: 10 | 
+2021-04-11 20:53:54.673048 - [Order Placed] UPL | buy | price: 640.05 | quantity: 10 | Profit Booked
+2021-04-11 20:53:54.695089 - [Order Placed] UPL | sell | price: 639.5 | quantity: 10 | 
+2021-04-11 20:53:56.792259 - [Order Placed] UPL | buy | price: 639.8 | quantity: 10 | Closed

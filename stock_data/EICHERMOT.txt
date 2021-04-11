@@ -1,0 +1,3 @@
+2021-04-11 20:53:25.388599 - First 15 min high: 2572.0 | low: 2541.05 | open: 2550.0
+2021-04-11 20:53:53.757335 - [Order Placed] EICHERMOT | buy | price: 2572.6 | quantity: 10 | 
+2021-04-11 20:53:56.784418 - [Order Placed] EICHERMOT | sell | price: 2530.3 | quantity: 10 | Closed

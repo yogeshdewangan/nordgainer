@@ -1,0 +1,9 @@
+2021-04-11 20:53:31.076151 - First 15 min high: 370.0 | low: 366.0 | open: 367.0
+2021-04-11 20:53:53.087811 - [Order Placed] HINDALCO | sell | price: 366.0 | quantity: 10 | 
+2021-04-11 20:53:53.182874 - [Order Placed] HINDALCO | buy | price: 364.0 | quantity: 10 | Profit Booked
+2021-04-11 20:53:53.195884 - [Order Placed] HINDALCO | sell | price: 363.1 | quantity: 10 | 
+2021-04-11 20:53:53.393015 - [Order Placed] HINDALCO | buy | price: 361.05 | quantity: 10 | Profit Booked
+2021-04-11 20:53:53.408024 - [Order Placed] HINDALCO | sell | price: 362.0 | quantity: 10 | 
+2021-04-11 20:53:54.546926 - [Order Placed] HINDALCO | buy | price: 360.05 | quantity: 10 | Profit Booked
+2021-04-11 20:53:54.587953 - [Order Placed] HINDALCO | sell | price: 360.4 | quantity: 10 | 
+2021-04-11 20:53:56.788420 - [Order Placed] HINDALCO | buy | price: 364.05 | quantity: 10 | Closed

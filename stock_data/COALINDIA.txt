@@ -1,0 +1,3 @@
+2021-04-11 20:53:24.450939 - First 15 min high: 131.9 | low: 130.8 | open: 131.65
+2021-04-11 20:53:53.074803 - [Order Placed] COALINDIA | sell | price: 130.8 | quantity: 10 | 
+2021-04-11 20:53:56.783419 - [Order Placed] COALINDIA | buy | price: 130.7 | quantity: 10 | Closed

@@ -1,0 +1,3 @@
+2021-04-11 20:53:21.802950 - First 15 min high: 541.95 | low: 537.25 | open: 539.5
+2021-04-11 20:53:53.084809 - [Order Placed] BHARTIARTL | sell | price: 536.9 | quantity: 10 | 
+2021-04-11 20:53:56.779413 - [Order Placed] BHARTIARTL | buy | price: 539.55 | quantity: 10 | Closed

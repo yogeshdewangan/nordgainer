@@ -1,0 +1,3 @@
+2021-04-11 20:53:44.236270 - First 15 min high: 912.0 | low: 900.2 | open: 904.6
+2021-04-11 20:53:53.639177 - [Order Placed] SBILIFE | buy | price: 912.0 | quantity: 10 | 
+2021-04-11 20:53:56.792259 - [Order Placed] SBILIFE | sell | price: 910.5 | quantity: 10 | Closed
