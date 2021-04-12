@@ -1,5 +1,2 @@
-2021-04-11 22:12:59.005825 - First 15 min high: 93.0 | low: 92.7 | open: 93.0
-2021-04-11 22:13:16.988923 - [Order Placed] IOC | buy | price: 93.0 | quantity: 10 | 
-2021-04-11 22:13:17.113930 - [Order Placed] IOC | sell | price: 93.45 | quantity: 10 | Profit Booked
-2021-04-11 22:13:17.113930 - [Order Placed] IOC | buy | price: 93.45 | quantity: 10 | 
-2021-04-11 22:13:17.876465 - [Order Placed] IOC | sell | price: 92.9 | quantity: 10 | Closed
+2021-04-12 09:39:07.906302 - First 15 min high: 90.45 | low: 88.8 | open: 90.1
+2021-04-12 09:39:55.474757 - [Order Placed] IOC | sell | price: 88.1 | quantity: 3 | 

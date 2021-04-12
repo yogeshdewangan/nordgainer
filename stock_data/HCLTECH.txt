@@ -1,5 +1,2 @@
-2021-04-11 22:12:50.794202 - First 15 min high: 1046.05 | low: 1037.25 | open: 1044.0
-2021-04-11 22:13:17.067052 - [Order Placed] HCLTECH | buy | price: 1046.25 | quantity: 10 | 
-2021-04-11 22:13:17.176434 - [Order Placed] HCLTECH | sell | price: 1051.8 | quantity: 10 | Profit Booked
-2021-04-11 22:13:17.176434 - [Order Placed] HCLTECH | buy | price: 1052.8 | quantity: 10 | 
-2021-04-11 22:13:17.876465 - [Order Placed] HCLTECH | sell | price: 1038.6 | quantity: 10 | Closed
+2021-04-12 09:38:34.368709 - First 15 min high: 1042.95 | low: 1031.0 | open: 1042.95
+2021-04-12 09:39:55.427880 - [Order Placed] HCLTECH | sell | price: 1027.05 | quantity: 3 | 

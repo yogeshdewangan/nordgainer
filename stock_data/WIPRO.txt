@@ -1,3 +1,2 @@
-2021-04-11 22:13:16.624992 - First 15 min high: 444.35 | low: 440.0 | open: 441.95
-2021-04-11 22:13:17.004549 - [Order Placed] WIPRO | buy | price: 444.8 | quantity: 10 | 
-2021-04-11 22:13:17.892091 - [Order Placed] WIPRO | sell | price: 442.55 | quantity: 10 | Closed
+2021-04-12 09:39:55.375992 - First 15 min high: 450.1 | low: 440.45 | open: 450.0
+2021-04-12 09:39:55.568509 - [Order Placed] WIPRO | sell | price: 436.5 | quantity: 3 | 

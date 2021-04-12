@@ -1,3 +1,2 @@
-2021-04-11 22:13:09.079847 - First 15 min high: 625.2 | low: 620.55 | open: 620.55
-2021-04-11 22:13:17.004549 - [Order Placed] SUNPHARMA | buy | price: 626.0 | quantity: 10 | 
-2021-04-11 22:13:17.892091 - [Order Placed] SUNPHARMA | sell | price: 614.25 | quantity: 10 | Closed
+2021-04-12 09:39:40.469546 - First 15 min high: 644.0 | low: 635.1 | open: 639.0
+2021-04-12 09:39:55.537258 - [Order Placed] SUNPHARMA | sell | price: 627.1 | quantity: 3 | 

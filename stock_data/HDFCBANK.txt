@@ -1,3 +1,2 @@
-2021-04-11 22:12:52.214282 - First 15 min high: 1459.15 | low: 1453.0 | open: 1453.0
-2021-04-11 22:13:17.035800 - [Order Placed] HDFCBANK | buy | price: 1459.25 | quantity: 10 | 
-2021-04-11 22:13:17.876465 - [Order Placed] HDFCBANK | sell | price: 1434.7 | quantity: 10 | Closed
+2021-04-12 09:38:39.711738 - First 15 min high: 1399.0 | low: 1379.0 | open: 1393.0
+2021-04-12 09:39:55.427880 - [Order Placed] HDFCBANK | sell | price: 1378.25 | quantity: 3 | 

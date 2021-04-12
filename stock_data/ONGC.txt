@@ -1,7 +1,1 @@
-2021-04-11 22:13:04.906431 - First 15 min high: 104.45 | low: 103.8 | open: 103.8
-2021-04-11 22:13:17.004549 - [Order Placed] ONGC | buy | price: 104.6 | quantity: 10 | 
-2021-04-11 22:13:17.207683 - [Order Placed] ONGC | sell | price: 105.1 | quantity: 10 | Profit Booked
-2021-04-11 22:13:17.207683 - [Order Placed] ONGC | buy | price: 105.05 | quantity: 10 | 
-2021-04-11 22:13:17.520727 - [Order Placed] ONGC | sell | price: 105.6 | quantity: 10 | Profit Booked
-2021-04-11 22:13:17.536353 - [Order Placed] ONGC | buy | price: 105.5 | quantity: 10 | 
-2021-04-11 22:13:17.876465 - [Order Placed] ONGC | sell | price: 103.55 | quantity: 10 | Closed
+2021-04-12 09:39:29.253950 - First 15 min high: 102.25 | low: 100.7 | open: 100.85

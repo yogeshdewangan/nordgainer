@@ -1,3 +1,2 @@
-2021-04-11 22:13:05.906481 - First 15 min high: 212.95 | low: 211.6 | open: 211.95
-2021-04-11 22:13:17.004549 - [Order Placed] POWERGRID | buy | price: 213.2 | quantity: 10 | 
-2021-04-11 22:13:17.892091 - [Order Placed] POWERGRID | sell | price: 209.6 | quantity: 10 | Closed
+2021-04-12 09:39:31.964228 - First 15 min high: 206.65 | low: 203.35 | open: 206.65
+2021-04-12 09:39:55.506006 - [Order Placed] POWERGRID | sell | price: 201.3 | quantity: 3 | 

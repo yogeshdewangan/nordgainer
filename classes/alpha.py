@@ -57,7 +57,7 @@ def purchase_stock(symbol, quantity, buy_or_sell="buy", current_price=0, stop_lo
     # if current_price> balance:
     #     print("Margin not available, Total margin : "+ str(balance))
     #     return False, 0
-    return True,100
+    #return True,100
     try:
         if buy_or_sell.upper() == "buy".upper():
             TransType = TransactionType.Buy

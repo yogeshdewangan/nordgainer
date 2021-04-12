@@ -1,5 +1,2 @@
-2021-04-11 22:13:12.506955 - First 15 min high: 3303.0 | low: 3266.05 | open: 3270.0
-2021-04-11 22:13:17.035800 - [Order Placed] TCS | buy | price: 3303.45 | quantity: 10 | 
-2021-04-11 22:13:17.067052 - [Order Placed] TCS | sell | price: 3324.35 | quantity: 10 | Profit Booked
-2021-04-11 22:13:17.067052 - [Order Placed] TCS | buy | price: 3323.45 | quantity: 10 | 
-2021-04-11 22:13:17.892091 - [Order Placed] TCS | sell | price: 3322.05 | quantity: 10 | Closed
+2021-04-12 09:39:47.434106 - First 15 min high: 3338.1 | low: 3306.35 | open: 3322.25
+2021-04-12 09:39:55.552883 - [Order Placed] TCS | sell | price: 3293.2 | quantity: 3 | 

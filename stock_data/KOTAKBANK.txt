@@ -1,5 +1,2 @@
-2021-04-11 22:13:01.337146 - First 15 min high: 1809.75 | low: 1795.1 | open: 1796.0
-2021-04-11 22:13:17.020174 - [Order Placed] KOTAKBANK | sell | price: 1793.1 | quantity: 10 | 
-2021-04-11 22:13:17.860834 - [Order Placed] KOTAKBANK | buy | price: 1782.05 | quantity: 10 | Profit Booked
-2021-04-11 22:13:17.860834 - [Order Placed] KOTAKBANK | sell | price: 1783.1 | quantity: 10 | 
-2021-04-11 22:13:17.876465 - [Order Placed] KOTAKBANK | buy | price: 1782.3 | quantity: 10 | Closed
+2021-04-12 09:39:15.455326 - First 15 min high: 1763.0 | low: 1738.7 | open: 1757.25
+2021-04-12 09:39:55.490381 - [Order Placed] KOTAKBANK | sell | price: 1734.9 | quantity: 3 | 

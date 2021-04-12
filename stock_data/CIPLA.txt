@@ -1,5 +1,2 @@
-2021-04-11 22:12:47.648356 - First 15 min high: 844.85 | low: 841.0 | open: 843.0
-2021-04-11 22:13:17.004549 - [Order Placed] CIPLA | buy | price: 845.4 | quantity: 10 | 
-2021-04-11 22:13:17.426445 - [Order Placed] CIPLA | sell | price: 849.7 | quantity: 10 | Profit Booked
-2021-04-11 22:13:17.426445 - [Order Placed] CIPLA | buy | price: 848.9 | quantity: 10 | 
-2021-04-11 22:13:17.876465 - [Order Placed] CIPLA | sell | price: 842.4 | quantity: 10 | Closed
+2021-04-12 09:38:24.399076 - First 15 min high: 909.3 | low: 887.0 | open: 890.0
+2021-04-12 09:39:55.396626 - [Order Placed] CIPLA | sell | price: 886.05 | quantity: 3 | 

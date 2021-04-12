@@ -132,6 +132,7 @@ def check_15_min_candle():
     for stock in conf_reader.MYDEF:
         try:
             high, low, open = truedata.get_historic_data(stock.symbol)
+            print_and_log(str(stock.symbol)+ " | First 15 min high: " + str(high) + " | low: " + str(low) + " | open: " + str(open))
             log_stock(stock.symbol, "First 15 min high: " + str(high) + " | low: " + str(low) + " | open: " + str(open))
             stock.first15_high = high
             stock.first15_low = low
