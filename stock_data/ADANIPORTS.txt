@@ -1,5 +1,7 @@
-2021-04-11 20:53:19.615626 - First 15 min high: 828.4 | low: 817.05 | open: 824.75
-2021-04-11 20:53:53.126837 - [Order Placed] ADANIPORTS | buy | price: 829.7 | quantity: 10 | 
-2021-04-11 20:53:53.168865 - [Order Placed] ADANIPORTS | sell | price: 834.7 | quantity: 10 | Profit Booked
-2021-04-11 20:53:53.178871 - [Order Placed] ADANIPORTS | buy | price: 833.95 | quantity: 10 | 
-2021-04-11 20:53:56.777414 - [Order Placed] ADANIPORTS | sell | price: 831.6 | quantity: 10 | Closed
+2021-04-11 22:12:43.484517 - First 15 min high: 826.95 | low: 815.05 | open: 818.0
+2021-04-11 22:13:17.004549 - [Order Placed] ADANIPORTS | buy | price: 828.85 | quantity: 10 | 
+2021-04-11 22:13:17.473322 - [Order Placed] ADANIPORTS | sell | price: 833.7 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.473322 - [Order Placed] ADANIPORTS | buy | price: 832.75 | quantity: 10 | 
+2021-04-11 22:13:17.505102 - [Order Placed] ADANIPORTS | sell | price: 837.6 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.505102 - [Order Placed] ADANIPORTS | buy | price: 836.8 | quantity: 10 | 
+2021-04-11 22:13:17.860834 - [Order Placed] ADANIPORTS | sell | price: 825.45 | quantity: 10 | Closed

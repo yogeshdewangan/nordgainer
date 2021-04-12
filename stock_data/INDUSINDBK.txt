@@ -1,3 +1,7 @@
-2021-04-11 20:53:34.057922 - First 15 min high: 936.0 | low: 920.1 | open: 935.0
-2021-04-11 20:53:53.088812 - [Order Placed] INDUSINDBK | sell | price: 919.1 | quantity: 10 | 
-2021-04-11 20:53:56.790420 - [Order Placed] INDUSINDBK | buy | price: 930.5 | quantity: 10 | Closed
+2021-04-11 22:12:57.262278 - First 15 min high: 957.95 | low: 948.55 | open: 949.0
+2021-04-11 22:13:17.082677 - [Order Placed] INDUSINDBK | sell | price: 948.0 | quantity: 10 | 
+2021-04-11 22:13:17.410821 - [Order Placed] INDUSINDBK | buy | price: 943.05 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.410821 - [Order Placed] INDUSINDBK | sell | price: 944.5 | quantity: 10 | 
+2021-04-11 22:13:17.776196 - [Order Placed] INDUSINDBK | buy | price: 938.5 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.776196 - [Order Placed] INDUSINDBK | sell | price: 938.5 | quantity: 10 | 
+2021-04-11 22:13:17.876465 - [Order Placed] INDUSINDBK | buy | price: 938.55 | quantity: 10 | Closed

@@ -1,3 +1,7 @@
-2021-04-11 20:53:39.322005 - First 15 min high: 1414.0 | low: 1401.1 | open: 1414.0
-2021-04-11 20:53:53.069799 - [Order Placed] LT | sell | price: 1399.3 | quantity: 10 | 
-2021-04-11 20:53:56.792259 - [Order Placed] LT | buy | price: 1405.0 | quantity: 10 | Closed
+2021-04-11 22:13:02.089102 - First 15 min high: 1417.1 | low: 1410.0 | open: 1410.0
+2021-04-11 22:13:17.004549 - [Order Placed] LT | buy | price: 1417.1 | quantity: 10 | 
+2021-04-11 22:13:17.442069 - [Order Placed] LT | sell | price: 1425.0 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.457855 - [Order Placed] LT | buy | price: 1423.8 | quantity: 10 | 
+2021-04-11 22:13:17.520727 - [Order Placed] LT | sell | price: 1431.9 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.520727 - [Order Placed] LT | buy | price: 1431.95 | quantity: 10 | 
+2021-04-11 22:13:17.876465 - [Order Placed] LT | sell | price: 1419.4 | quantity: 10 | Closed

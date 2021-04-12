@@ -1,9 +1,3 @@
-2021-04-11 20:53:41.084177 - First 15 min high: 105.95 | low: 104.8 | open: 105.95
-2021-04-11 20:53:53.069799 - [Order Placed] NTPC | sell | price: 104.8 | quantity: 10 | 
-2021-04-11 20:53:53.373001 - [Order Placed] NTPC | buy | price: 104.25 | quantity: 10 | Profit Booked
-2021-04-11 20:53:53.385009 - [Order Placed] NTPC | sell | price: 104.15 | quantity: 10 | 
-2021-04-11 20:53:54.252730 - [Order Placed] NTPC | buy | price: 103.65 | quantity: 10 | Profit Booked
-2021-04-11 20:53:54.267740 - [Order Placed] NTPC | sell | price: 103.65 | quantity: 10 | 
-2021-04-11 20:53:55.454414 - [Order Placed] NTPC | buy | price: 103.15 | quantity: 10 | Profit Booked
-2021-04-11 20:53:55.501292 - [Order Placed] NTPC | sell | price: 103.35 | quantity: 10 | 
-2021-04-11 20:53:56.792259 - [Order Placed] NTPC | buy | price: 103.25 | quantity: 10 | Closed
+2021-04-11 22:13:03.872237 - First 15 min high: 106.4 | low: 105.8 | open: 106.0
+2021-04-11 22:13:16.988923 - [Order Placed] NTPC | buy | price: 106.4 | quantity: 10 | 
+2021-04-11 22:13:17.876465 - [Order Placed] NTPC | sell | price: 105.05 | quantity: 10 | Closed

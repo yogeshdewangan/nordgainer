@@ -1,13 +1,11 @@
-2021-04-11 20:53:48.264507 - First 15 min high: 316.3 | low: 312.5 | open: 313.2
-2021-04-11 20:53:53.071800 - [Order Placed] TATAMOTORS | buy | price: 316.35 | quantity: 10 | 
-2021-04-11 20:53:53.105825 - [Order Placed] TATAMOTORS | sell | price: 318.3 | quantity: 10 | Profit Booked
-2021-04-11 20:53:53.113829 - [Order Placed] TATAMOTORS | buy | price: 319.0 | quantity: 10 | 
-2021-04-11 20:53:53.133841 - [Order Placed] TATAMOTORS | sell | price: 320.75 | quantity: 10 | Profit Booked
-2021-04-11 20:53:53.140846 - [Order Placed] TATAMOTORS | buy | price: 321.15 | quantity: 10 | 
-2021-04-11 20:53:53.166864 - [Order Placed] TATAMOTORS | sell | price: 323.5 | quantity: 10 | Profit Booked
-2021-04-11 20:53:53.176870 - [Order Placed] TATAMOTORS | buy | price: 322.05 | quantity: 10 | 
-2021-04-11 20:53:53.346987 - [Order Placed] TATAMOTORS | sell | price: 324.0 | quantity: 10 | Profit Booked
-2021-04-11 20:53:53.359992 - [Order Placed] TATAMOTORS | buy | price: 323.15 | quantity: 10 | 
-2021-04-11 20:53:54.197694 - [Order Placed] TATAMOTORS | sell | price: 324.85 | quantity: 10 | Profit Booked
-2021-04-11 20:53:54.213704 - [Order Placed] TATAMOTORS | buy | price: 324.5 | quantity: 10 | 
-2021-04-11 20:53:56.792259 - [Order Placed] TATAMOTORS | sell | price: 321.9 | quantity: 10 | Closed
+2021-04-11 22:13:10.647375 - First 15 min high: 310.65 | low: 307.5 | open: 307.9
+2021-04-11 22:13:17.004549 - [Order Placed] TATAMOTORS | buy | price: 311.15 | quantity: 10 | 
+2021-04-11 22:13:17.020174 - [Order Placed] TATAMOTORS | sell | price: 312.75 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.020174 - [Order Placed] TATAMOTORS | buy | price: 312.1 | quantity: 10 | 
+2021-04-11 22:13:17.067052 - [Order Placed] TATAMOTORS | sell | price: 313.85 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.067052 - [Order Placed] TATAMOTORS | buy | price: 314.9 | quantity: 10 | 
+2021-04-11 22:13:17.207683 - [Order Placed] TATAMOTORS | sell | price: 316.6 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.207683 - [Order Placed] TATAMOTORS | buy | price: 316.2 | quantity: 10 | 
+2021-04-11 22:13:17.270187 - [Order Placed] TATAMOTORS | sell | price: 317.9 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.270187 - [Order Placed] TATAMOTORS | buy | price: 318.2 | quantity: 10 | 
+2021-04-11 22:13:17.892091 - [Order Placed] TATAMOTORS | sell | price: 314.25 | quantity: 10 | Closed

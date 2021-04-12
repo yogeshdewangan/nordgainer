@@ -1,5 +1,5 @@
-2021-04-11 20:53:47.477985 - First 15 min high: 671.8 | low: 665.0 | open: 670.0
-2021-04-11 20:53:53.124835 - [Order Placed] TATACONSUM | buy | price: 671.9 | quantity: 10 | 
-2021-04-11 20:53:53.132841 - [Order Placed] TATACONSUM | sell | price: 675.5 | quantity: 10 | Profit Booked
-2021-04-11 20:53:53.139845 - [Order Placed] TATACONSUM | buy | price: 674.0 | quantity: 10 | 
-2021-04-11 20:53:56.792259 - [Order Placed] TATACONSUM | sell | price: 672.75 | quantity: 10 | Closed
+2021-04-11 22:13:09.787985 - First 15 min high: 671.75 | low: 667.0 | open: 667.05
+2021-04-11 22:13:16.988923 - [Order Placed] TATACONSUM | buy | price: 671.75 | quantity: 10 | 
+2021-04-11 22:13:17.207683 - [Order Placed] TATACONSUM | sell | price: 675.4 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.207683 - [Order Placed] TATACONSUM | buy | price: 675.0 | quantity: 10 | 
+2021-04-11 22:13:17.892091 - [Order Placed] TATACONSUM | sell | price: 671.8 | quantity: 10 | Closed

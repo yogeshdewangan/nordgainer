@@ -1,5 +1,5 @@
-2021-04-11 20:53:34.987548 - First 15 min high: 1455.0 | low: 1441.0 | open: 1455.0
-2021-04-11 20:53:53.369999 - [Order Placed] INFY | sell | price: 1440.35 | quantity: 10 | 
-2021-04-11 20:53:55.776336 - [Order Placed] INFY | buy | price: 1432.6 | quantity: 10 | Profit Booked
-2021-04-11 20:53:55.794863 - [Order Placed] INFY | sell | price: 1434.8 | quantity: 10 | 
-2021-04-11 20:53:56.790420 - [Order Placed] INFY | buy | price: 1435.45 | quantity: 10 | Closed
+2021-04-11 22:12:58.258782 - First 15 min high: 1438.95 | low: 1421.0 | open: 1430.0
+2021-04-11 22:13:17.004549 - [Order Placed] INFY | buy | price: 1439.8 | quantity: 10 | 
+2021-04-11 22:13:17.067052 - [Order Placed] INFY | sell | price: 1447.4 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.067052 - [Order Placed] INFY | buy | price: 1444.1 | quantity: 10 | 
+2021-04-11 22:13:17.876465 - [Order Placed] INFY | sell | price: 1440.3 | quantity: 10 | Closed

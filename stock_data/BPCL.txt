@@ -1,3 +1,5 @@
-2021-04-11 20:53:22.498004 - First 15 min high: 430.0 | low: 427.55 | open: 430.0
-2021-04-11 20:53:53.266930 - [Order Placed] BPCL | buy | price: 431.9 | quantity: 10 | 
-2021-04-11 20:53:56.781415 - [Order Placed] BPCL | sell | price: 428.4 | quantity: 10 | Closed
+2021-04-11 22:12:46.932342 - First 15 min high: 430.9 | low: 429.3 | open: 429.55
+2021-04-11 22:13:16.988923 - [Order Placed] BPCL | buy | price: 430.9 | quantity: 10 | 
+2021-04-11 22:13:17.098308 - [Order Placed] BPCL | sell | price: 434.25 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.098308 - [Order Placed] BPCL | buy | price: 434.2 | quantity: 10 | 
+2021-04-11 22:13:17.876465 - [Order Placed] BPCL | sell | price: 430.9 | quantity: 10 | Closed

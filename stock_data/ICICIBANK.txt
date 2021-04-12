@@ -1,5 +1,3 @@
-2021-04-11 20:53:32.953069 - First 15 min high: 573.95 | low: 565.0 | open: 573.95
-2021-04-11 20:53:53.610158 - [Order Placed] ICICIBANK | buy | price: 574.2 | quantity: 10 | 
-2021-04-11 20:53:53.710795 - [Order Placed] ICICIBANK | sell | price: 578.3 | quantity: 10 | Profit Booked
-2021-04-11 20:53:53.727805 - [Order Placed] ICICIBANK | buy | price: 577.8 | quantity: 10 | 
-2021-04-11 20:53:56.789420 - [Order Placed] ICICIBANK | sell | price: 571.5 | quantity: 10 | Closed
+2021-04-11 22:12:56.406481 - First 15 min high: 583.15 | low: 580.55 | open: 582.0
+2021-04-11 22:13:17.004549 - [Order Placed] ICICIBANK | buy | price: 583.85 | quantity: 10 | 
+2021-04-11 22:13:17.876465 - [Order Placed] ICICIBANK | sell | price: 576.5 | quantity: 10 | Closed

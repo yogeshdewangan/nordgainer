@@ -1,3 +1,5 @@
-2021-04-11 20:53:26.044897 - First 15 min high: 1463.25 | low: 1449.05 | open: 1455.0
-2021-04-11 20:53:53.309961 - [Order Placed] GRASIM | buy | price: 1466.0 | quantity: 10 | 
-2021-04-11 20:53:56.784418 - [Order Placed] GRASIM | sell | price: 1447.5 | quantity: 10 | Closed
+2021-04-11 22:12:49.934077 - First 15 min high: 1453.4 | low: 1444.05 | open: 1446.8
+2021-04-11 22:13:17.004549 - [Order Placed] GRASIM | buy | price: 1453.9 | quantity: 10 | 
+2021-04-11 22:13:17.035800 - [Order Placed] GRASIM | sell | price: 1461.75 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.035800 - [Order Placed] GRASIM | buy | price: 1460.0 | quantity: 10 | 
+2021-04-11 22:13:17.876465 - [Order Placed] GRASIM | sell | price: 1446.95 | quantity: 10 | Closed

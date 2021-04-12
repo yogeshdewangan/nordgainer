@@ -1,3 +1,5 @@
-2021-04-11 20:53:40.390715 - First 15 min high: 799.3 | low: 785.0 | open: 795.0
-2021-04-11 20:53:54.170676 - [Order Placed] M&M | buy | price: 799.5 | quantity: 10 | 
-2021-04-11 20:53:56.792259 - [Order Placed] M&M | sell | price: 793.15 | quantity: 10 | Closed
+2021-04-11 22:13:02.929443 - First 15 min high: 804.0 | low: 800.0 | open: 802.0
+2021-04-11 22:13:17.004549 - [Order Placed] M&M | sell | price: 799.9 | quantity: 10 | 
+2021-04-11 22:13:17.807448 - [Order Placed] M&M | buy | price: 795.65 | quantity: 10 | Profit Booked
+2021-04-11 22:13:17.807448 - [Order Placed] M&M | sell | price: 795.55 | quantity: 10 | 
+2021-04-11 22:13:17.876465 - [Order Placed] M&M | buy | price: 795.9 | quantity: 10 | Closed

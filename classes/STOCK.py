@@ -18,6 +18,7 @@ class STOCK:
     first15_low = 0
     profit_booked = False
     price_list =[]
+    current_price = 0
 
 
 class Type:

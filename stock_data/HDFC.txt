@@ -1,3 +1,3 @@
-2021-04-11 20:53:27.814735 - First 15 min high: 2556.0 | low: 2511.3 | open: 2522.0
-2021-04-11 20:53:53.065797 - [Order Placed] HDFC | sell | price: 2507.0 | quantity: 10 | 
-2021-04-11 20:53:56.786418 - [Order Placed] HDFC | buy | price: 2508.0 | quantity: 10 | Closed
+2021-04-11 22:12:51.518209 - First 15 min high: 2520.8 | low: 2490.8 | open: 2495.0
+2021-04-11 22:13:17.020174 - [Order Placed] HDFC | buy | price: 2522.95 | quantity: 10 | 
+2021-04-11 22:13:17.876465 - [Order Placed] HDFC | sell | price: 2503.0 | quantity: 10 | Closed

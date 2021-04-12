@@ -32,7 +32,7 @@ for root, dirs, files in os.walk('stock_data'):
 profit = 0
 
 back_test = conf_reader.props["back_test"]
-if back_test.lower()== 'true':
+if back_test.lower() == 'true':
     back_test = True
 else:
     back_test = False
@@ -99,7 +99,6 @@ def do_trade(stock, current_pri, buy_or_sell, quantity, message=""):
 
 
 def close_all_positions(profit):
-
     # square off all positions
     for stock in conf_reader.MYDEF:
 
@@ -109,13 +108,13 @@ def close_all_positions(profit):
         else:
             current_price = truedata.get_current_data(stock.req_code)
         if stock.purchased:
-            if stock.buy_or_sell == Type.Buy :
+            if stock.buy_or_sell == Type.Buy:
                 ltp = stock.ltp
                 placed = do_trade(stock, current_price, Type.Sell, stock.quantity, "Closed")
                 if placed:
                     stock.purchased = False
                     profit += (current_price - ltp) * stock.quantity
-            elif stock.buy_or_sell == Type.Sell :
+            elif stock.buy_or_sell == Type.Sell:
                 ltp = stock.ltp
                 placed = do_trade(stock, current_price, Type.Buy, stock.quantity, "Closed")
                 if placed:
@@ -139,7 +138,7 @@ def check_15_min_candle():
             stock.open = open
             if back_test:
                 stock.price_list = truedata.get_price_list_for_back_test(symbol=stock.symbol)
-                print(stock.symbol+" | Price List: " + str(stock.price_list))
+                print(stock.symbol + " | Price List: " + str(stock.price_list))
 
         except Exception:
             print_and_log("Exception while getting high, low and open price for first 15 min candle")
@@ -165,8 +164,9 @@ def check_time():
         return "wait"
 
 
-def print_details(stock, current_price, positive_range, negative_range):
+def print_details(stock, current_price, positive_range, negative_range, which= ""):
     print("***************** " + str(stock.symbol) + "********************")
+    print("---- "+which+" ----")
     print("Current Price: " + str(current_price))
     print("Positive Range: " + str(positive_range))
     print("Negative Range: " + str(negative_range))
@@ -192,10 +192,7 @@ if __name__ == '__main__':
         stop_list = get_stop_list()
 
         what_next = check_time()
-        print("What Next: "+ str(what_next))
-
-        if what_next == "close" or "CLOSEALL" in stop_list:
-            close_all_positions(profit)
+        print("What Next: " + str(what_next))
 
         if back_test:
             what_next = "run"
@@ -207,8 +204,8 @@ if __name__ == '__main__':
                 first_time = True
 
             for stock in conf_reader.MYDEF:
-                if stock.symbol not in stop_list :
-                    if stock.first15_high >0 and stock.first15_low >0:
+                if stock.symbol not in stop_list:
+                    if stock.first15_high > 0 and stock.first15_low > 0:
                         try:
 
                             if back_test:
@@ -220,6 +217,7 @@ if __name__ == '__main__':
                                     sys.exit()
                             else:
                                 current_price = truedata.get_current_data(stock.req_code)
+                            stock.current_price = current_price
 
                             # First time purchase
                             if not stock.purchased:
@@ -238,11 +236,12 @@ if __name__ == '__main__':
                             # Check stop loss
                             if stock.purchased:
                                 positive_range, negative_range = calculate_percentage(stock.ltp, conf_reader.props["stop_loss_per"])
-                                print_details(stock, current_price, positive_range, negative_range)
+
 
                                 if stock.buy_or_sell == Type.Buy:
                                     if current_price < negative_range:
                                         ltp = stock.ltp
+                                        print_details(stock, current_price, positive_range, negative_range, "Checking stop loss")
                                         placed = do_trade(stock, current_price, Type.Sell, stock.quantity, "SL Hit | Current Price < Negative Range")
                                         if placed:
                                             profit += (current_price - ltp) * stock.quantity
@@ -251,6 +250,7 @@ if __name__ == '__main__':
                                 if stock.buy_or_sell == Type.Sell:
                                     if current_price > positive_range:
                                         ltp = stock.ltp
+                                        print_details(stock, current_price, positive_range, negative_range, "Checking stop loss")
                                         placed = do_trade(stock, current_price, Type.Buy, stock.quantity, "SL Hit | Current Price > Positive Range")
                                         if placed:
                                             profit += (ltp - current_price) * stock.quantity
@@ -259,11 +259,12 @@ if __name__ == '__main__':
                             # Book profit
                             if stock.purchased:
                                 positive_range, negative_range = calculate_percentage(stock.ltp, conf_reader.props["profit_per"])
-                                print_details(stock, current_price, positive_range, negative_range)
+
 
                                 if stock.buy_or_sell == Type.Buy:
                                     if current_price >= positive_range:
                                         ltp = stock.ltp
+                                        print_details(stock, current_price, positive_range, negative_range, "Booking profits")
                                         placed = do_trade(stock, current_price, Type.Sell, stock.quantity, "Profit Booked")
                                         if placed:
                                             profit += (current_price - ltp) * stock.quantity
@@ -272,6 +273,7 @@ if __name__ == '__main__':
                                 if stock.buy_or_sell == Type.Sell:
                                     if current_price <= negative_range:
                                         ltp = stock.ltp
+                                        print_details(stock, current_price, positive_range, negative_range, "Booking profits")
                                         placed = do_trade(stock, current_price, Type.Buy, stock.quantity, "Profit Booked")
                                         if placed:
                                             profit += (ltp - current_price) * stock.quantity
@@ -283,13 +285,28 @@ if __name__ == '__main__':
                         print_and_log("High and low price of the stock is zero or negative")
                 else:
                     print_and_log("Stock found in stop list: {}".format(stock.symbol))
-                print_and_log("==================================================================")
+                # print_and_log("==================================================================")
             if not back_test:
                 print("P & L : " + str(bridge.get_m2m()))
                 print("Margin: " + str(bridge.get_balace()))
             print_and_log("Tool Calculated Profit: " + str(profit))
             print_and_log("Wating for {} seconds".format(loop_wait_time_sec))
+
+            # Calculate floating PL
+            floating_pl = 0
+            for stock in conf_reader.MYDEF:
+                if stock.purchased:
+                    if stock.buy_or_sell == Type.Buy:
+                        floating_pl += (stock.current_price - stock.ltp) * stock.quantity
+                    else:
+                        floating_pl += (stock.ltp - stock.current_price) * stock.quantity
+            print_and_log("Floating PL: " + str(floating_pl))
+            floating_pl = 0
+
             print("#############################################################################################################")
             time.sleep(loop_wait_time_sec)
         if what_next == "wait":
             print("Waiting for the configured start time")
+
+        if what_next == "close" or "CLOSEALL" in stop_list:
+            close_all_positions(profit)
