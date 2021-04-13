@@ -132,7 +132,7 @@ def check_15_min_candle():
     for stock in conf_reader.MYDEF:
         try:
             high, low, open = truedata.get_historic_data(stock.symbol)
-            print_and_log(str(stock.symbol)+ " | First 15 min high: " + str(high) + " | low: " + str(low) + " | open: " + str(open))
+            print_and_log(str(stock.symbol) + " | First 15 min high: " + str(high) + " | low: " + str(low) + " | open: " + str(open))
             log_stock(stock.symbol, "First 15 min high: " + str(high) + " | low: " + str(low) + " | open: " + str(open))
             stock.first15_high = high
             stock.first15_low = low
@@ -165,9 +165,9 @@ def check_time():
         return "wait"
 
 
-def print_details(stock, current_price, positive_range, negative_range, which= ""):
+def print_details(stock, current_price, positive_range, negative_range, which=""):
     print("***************** " + str(stock.symbol) + "********************")
-    print("---- "+which+" ----")
+    print("---- " + which + " ----")
     print("Current Price: " + str(current_price))
     print("Positive Range: " + str(positive_range))
     print("Negative Range: " + str(negative_range))
@@ -222,8 +222,6 @@ if __name__ == '__main__':
                                 current_price = truedata.get_current_data(stock.req_code)
                             stock.current_price = current_price
 
-
-
                             # First time purchase
                             if not stock.purchased:
                                 if stock.first15_high <= current_price:
@@ -242,29 +240,27 @@ if __name__ == '__main__':
                             if stock.purchased:
                                 positive_range, negative_range = calculate_percentage(stock.ltp, conf_reader.props["stop_loss_per"])
 
-
                                 if stock.buy_or_sell == Type.Buy:
                                     if current_price < negative_range:
                                         ltp = stock.ltp
                                         print_details(stock, current_price, positive_range, negative_range, "Checking stop loss")
-                                        placed = do_trade(stock, current_price, Type.Sell, stock.quantity, "SL Hit | Current Price < Negative Range")
+                                        placed = do_trade(stock, current_price, Type.Sell, stock.quantity * 2, "SL Hit | Current Price < Negative Range")
                                         if placed:
                                             profit += (current_price - ltp) * stock.quantity
-                                            stock.purchased = False
+                                            stock.purchased = True
 
                                 if stock.buy_or_sell == Type.Sell:
                                     if current_price > positive_range:
                                         ltp = stock.ltp
                                         print_details(stock, current_price, positive_range, negative_range, "Checking stop loss")
-                                        placed = do_trade(stock, current_price, Type.Buy, stock.quantity, "SL Hit | Current Price > Positive Range")
+                                        placed = do_trade(stock, current_price, Type.Buy, stock.quantity * 2, "SL Hit | Current Price > Positive Range")
                                         if placed:
                                             profit += (ltp - current_price) * stock.quantity
-                                            stock.purchased = False
+                                            stock.purchased = True
 
                             # Book profit
                             if stock.purchased:
                                 positive_range, negative_range = calculate_percentage(stock.ltp, conf_reader.props["profit_per"])
-
 
                                 if stock.buy_or_sell == Type.Buy:
                                     if current_price >= positive_range:
