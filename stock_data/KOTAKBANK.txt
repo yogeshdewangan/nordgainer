@@ -1,2 +1,0 @@
-2021-04-13 09:33:41.027256 - First 15 min high: 1747.8 | low: 1723.45 | open: 1745.8
-2021-04-13 09:34:37.871072 - [Order Placed] KOTAKBANK | buy | price: 1750.95 | quantity: 6 | 

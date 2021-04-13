@@ -1,4 +1,0 @@
-2021-04-13 09:33:02.495946 - First 15 min high: 126.25 | low: 124.8 | open: 124.8
-2021-04-13 09:34:34.964812 - [Order Placed] COALINDIA | buy | price: 126.65 | quantity: 6 | 
-2021-04-13 10:00:32.887946 - [Order Placed] COALINDIA | sell | price: 127.3 | quantity: 6 | Profit Booked
-2021-04-13 10:01:18.966334 - [Order Placed] COALINDIA | buy | price: 127.2 | quantity: 6 | 

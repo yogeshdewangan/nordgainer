@@ -58,7 +58,16 @@ def calculate_price_margin(price):
 def log_stock(symbol, data):
     from datetime import datetime
     try:
-        with open("stock_data/" + symbol + ".txt", "a") as f:
+        if not os.path.exists("stock_data"):
+            os.mkdir("stock_data")
+        dir_name = str(datetime.now().date())
+        if not os.path.exists("stock_data/" + dir_name):
+            os.mkdir("stock_data/" + dir_name)
+    except:
+        dir_name = "stocks"
+
+    try:
+        with open("stock_data/" + dir_name + "/" + symbol + ".txt", "a") as f:
             f.write(str(datetime.now()) + " - " + str(data) + "\n")
     except Exception as e:
         print(str(e))
@@ -208,12 +217,18 @@ if __name__ == '__main__':
                 if stock.symbol not in stop_list:
                     if stock.first15_high > 0 and stock.first15_low > 0:
                         try:
+                            # hour = datetime.datetime.now().hour
+                            # min = datetime.datetime.now().time().min
+                            # if hour==13:
+                            #     conf_reader.props["stop_loss_per"] = 1
+                            #     print("Changed stop loss to 0.5 at 13.01PM")
+
 
                             if back_test:
                                 current_price = stock.price_list[stock.count]
                                 stock.count += 1
-                                if stock.count > 245:
-                                    conf_reader.props["stop_loss_per"] = 0.1
+                                # if stock.count > 245:
+                                #     conf_reader.props["stop_loss_per"] = 2
 
                                 if stock.count > len(stock.price_list) - 2:
                                     close_all_positions(profit)

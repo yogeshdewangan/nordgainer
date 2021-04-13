@@ -1,6 +1,0 @@
-2021-04-13 09:34:05.199206 - First 15 min high: 334.0 | low: 330.7 | open: 332.0
-2021-04-13 09:49:15.168749 - [Order Placed] SBIN | buy | price: 334.0 | quantity: 6 | 
-2021-04-13 10:02:36.341229 - [Order Placed] SBIN | sell | price: 335.65 | quantity: 6 | Profit Booked
-2021-04-13 10:02:58.716256 - [Order Placed] SBIN | buy | price: 335.75 | quantity: 6 | 
-2021-04-13 10:12:42.201087 - [Order Placed] SBIN | sell | price: 337.45 | quantity: 6 | Profit Booked
-2021-04-13 10:13:03.591763 - [Order Placed] SBIN | buy | price: 337.45 | quantity: 6 | 

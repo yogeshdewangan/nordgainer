@@ -1,6 +1,0 @@
-2021-04-13 09:32:53.199057 - First 15 min high: 641.6 | low: 630.0 | open: 635.6
-2021-04-13 09:34:34.652294 - [Order Placed] AXISBANK | buy | price: 646.0 | quantity: 6 | 
-2021-04-13 10:02:35.856866 - [Order Placed] AXISBANK | sell | price: 649.45 | quantity: 6 | Profit Booked
-2021-04-13 10:02:58.388110 - [Order Placed] AXISBANK | buy | price: 649.0 | quantity: 6 | 
-2021-04-13 10:46:34.921543 - [Order Placed] AXISBANK | sell | price: 652.4 | quantity: 6 | Profit Booked
-2021-04-13 10:46:56.577874 - [Order Placed] AXISBANK | buy | price: 651.8 | quantity: 6 | 

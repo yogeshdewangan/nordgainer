@@ -1,6 +1,0 @@
-2021-04-13 09:34:20.121009 - First 15 min high: 869.7 | low: 859.45 | open: 862.0
-2021-04-13 09:46:03.590470 - [Order Placed] TATASTEEL | buy | price: 870.15 | quantity: 6 | 
-2021-04-13 09:50:06.778095 - [Order Placed] TATASTEEL | sell | price: 874.75 | quantity: 6 | Profit Booked
-2021-04-13 09:50:31.121980 - [Order Placed] TATASTEEL | buy | price: 873.6 | quantity: 6 | 
-2021-04-13 09:52:20.293953 - [Order Placed] TATASTEEL | sell | price: 878.4 | quantity: 6 | Profit Booked
-2021-04-13 09:52:42.309468 - [Order Placed] TATASTEEL | buy | price: 878.0 | quantity: 6 | 

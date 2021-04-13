@@ -1,2 +1,0 @@
-2021-04-13 09:33:57.074204 - First 15 min high: 1934.0 | low: 1924.0 | open: 1924.0
-2021-04-13 09:58:26.387922 - [Order Placed] RELIANCE | buy | price: 1934.55 | quantity: 6 | 

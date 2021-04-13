@@ -1,4 +1,0 @@
-2021-04-13 09:33:13.183487 - First 15 min high: 2439.9 | low: 2412.25 | open: 2422.4
-2021-04-13 09:34:35.589848 - [Order Placed] HDFC | buy | price: 2449.45 | quantity: 6 | 
-2021-04-13 10:09:28.591566 - [Order Placed] HDFC | sell | price: 2462.1 | quantity: 6 | Profit Booked
-2021-04-13 10:09:50.138575 - [Order Placed] HDFC | buy | price: 2461.35 | quantity: 6 | 

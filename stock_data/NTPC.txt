@@ -1,2 +1,0 @@
-2021-04-13 09:33:49.246042 - First 15 min high: 100.8 | low: 99.3 | open: 99.6
-2021-04-13 10:00:39.341133 - [Order Placed] NTPC | buy | price: 100.8 | quantity: 6 | 

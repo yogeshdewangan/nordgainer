@@ -1,2 +1,0 @@
-2021-04-13 09:32:50.527418 - First 15 min high: 2611.5 | low: 2582.45 | open: 2600.0
-2021-04-13 09:35:27.277406 - [Order Placed] ASIANPAINT | sell | price: 2580.75 | quantity: 6 | 

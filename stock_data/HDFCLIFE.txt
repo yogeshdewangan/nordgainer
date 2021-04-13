@@ -1,6 +1,0 @@
-2021-04-13 09:33:18.121009 - First 15 min high: 689.15 | low: 685.0 | open: 689.15
-2021-04-13 09:34:36.136655 - [Order Placed] HDFCLIFE | buy | price: 694.0 | quantity: 6 | 
-2021-04-13 09:43:27.043362 - [Order Placed] HDFCLIFE | sell | price: 697.45 | quantity: 6 | Profit Booked
-2021-04-13 09:43:53.981086 - [Order Placed] HDFCLIFE | buy | price: 697.2 | quantity: 6 | 
-2021-04-13 10:04:45.028807 - [Order Placed] HDFCLIFE | sell | price: 701.5 | quantity: 6 | Profit Booked
-2021-04-13 10:05:06.872577 - [Order Placed] HDFCLIFE | buy | price: 701.65 | quantity: 6 | 

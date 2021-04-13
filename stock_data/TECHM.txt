@@ -1,8 +1,0 @@
-2021-04-13 09:34:24.964817 - First 15 min high: 1050.25 | low: 1018.55 | open: 1045.0
-2021-04-13 09:34:39.542912 - [Order Placed] TECHM | sell | price: 1015.15 | quantity: 6 | 
-2021-04-13 09:43:54.387120 - [Order Placed] TECHM | buy | price: 1009.95 | quantity: 6 | Profit Booked
-2021-04-13 09:44:16.168382 - [Order Placed] TECHM | sell | price: 1010.0 | quantity: 6 | 
-2021-04-13 10:44:46.108944 - [Order Placed] TECHM | buy | price: 1004.3 | quantity: 6 | Profit Booked
-2021-04-13 10:45:07.905988 - [Order Placed] TECHM | sell | price: 1003.15 | quantity: 6 | 
-2021-04-13 11:27:17.111143 - [Order Placed] TECHM | buy | price: 997.0 | quantity: 6 | Profit Booked
-2021-04-13 11:27:38.407984 - [Order Placed] TECHM | sell | price: 998.0 | quantity: 6 | 

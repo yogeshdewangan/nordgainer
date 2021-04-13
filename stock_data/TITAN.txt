@@ -1,6 +1,0 @@
-2021-04-13 09:34:28.761878 - First 15 min high: 1535.0 | low: 1520.0 | open: 1528.6
-2021-04-13 09:36:32.839905 - [Order Placed] TITAN | buy | price: 1535.0 | quantity: 6 | 
-2021-04-13 09:46:45.902898 - [Order Placed] TITAN | sell | price: 1543.05 | quantity: 6 | Profit Booked
-2021-04-13 09:47:07.277966 - [Order Placed] TITAN | buy | price: 1543.05 | quantity: 6 | 
-2021-04-13 10:11:15.935424 - [Order Placed] TITAN | sell | price: 1550.75 | quantity: 6 | Profit Booked
-2021-04-13 10:11:37.388657 - [Order Placed] TITAN | buy | price: 1550.5 | quantity: 6 | 
