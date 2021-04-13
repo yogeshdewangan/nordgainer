@@ -1,15 +1,8 @@
-2021-04-13 00:17:07.447312 - First 15 min high: 1477.55 | low: 1460.15 | open: 1474.0
-2021-04-13 00:17:36.714495 - [Order Placed] INFY | buy | price: 1477.55 | quantity: 3 | 
-2021-04-13 00:17:54.330752 - [Order Placed] INFY | sell | price: 1421.0 | quantity: 3 | SL Hit | Current Price < Negative Range
-2021-04-13 00:17:55.991512 - [Order Placed] INFY | sell | price: 1422.0 | quantity: 3 | 
-2021-04-13 00:17:57.652246 - [Order Placed] INFY | buy | price: 1423.75 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:17:58.799238 - [Order Placed] INFY | sell | price: 1425.9 | quantity: 3 | 
-2021-04-13 00:18:01.424245 - [Order Placed] INFY | buy | price: 1428.95 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:01.924266 - [Order Placed] INFY | sell | price: 1428.15 | quantity: 3 | 
-2021-04-13 00:18:11.357329 - [Order Placed] INFY | buy | price: 1432.05 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:11.763598 - [Order Placed] INFY | sell | price: 1433.25 | quantity: 3 | 
-2021-04-13 00:18:13.154293 - [Order Placed] INFY | buy | price: 1435.95 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:13.591811 - [Order Placed] INFY | sell | price: 1436.8 | quantity: 3 | 
-2021-04-13 00:18:15.888798 - [Order Placed] INFY | buy | price: 1428.55 | quantity: 3 | Profit Booked
-2021-04-13 00:18:16.216940 - [Order Placed] INFY | sell | price: 1428.6 | quantity: 3 | 
-2021-04-13 00:18:27.548361 - [Order Placed] INFY | buy | price: 1423.95 | quantity: 3 | Closed
+2021-04-13 09:33:32.839752 - First 15 min high: 1435.25 | low: 1403.85 | open: 1433.0
+2021-04-13 09:34:36.949141 - [Order Placed] INFY | sell | price: 1402.95 | quantity: 6 | 
+2021-04-13 10:44:02.124636 - [Order Placed] INFY | buy | price: 1395.4 | quantity: 6 | Profit Booked
+2021-04-13 10:44:24.702789 - [Order Placed] INFY | sell | price: 1395.5 | quantity: 6 | 
+2021-04-13 10:48:22.499783 - [Order Placed] INFY | buy | price: 1388.05 | quantity: 6 | Profit Booked
+2021-04-13 10:48:43.859175 - [Order Placed] INFY | sell | price: 1388.75 | quantity: 6 | 
+2021-04-13 10:52:15.109353 - [Order Placed] INFY | buy | price: 1380.5 | quantity: 6 | Profit Booked
+2021-04-13 10:52:36.749963 - [Order Placed] INFY | sell | price: 1379.7 | quantity: 6 | 

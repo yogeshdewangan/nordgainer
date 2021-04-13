@@ -1,5 +1,4 @@
-2021-04-13 00:17:10.209241 - First 15 min high: 211.0 | low: 207.1 | open: 210.0
-2021-04-13 00:17:40.016384 - [Order Placed] ITC | sell | price: 206.7 | quantity: 3 | 
-2021-04-13 00:18:15.998180 - [Order Placed] ITC | buy | price: 205.65 | quantity: 3 | Profit Booked
-2021-04-13 00:18:16.342162 - [Order Placed] ITC | sell | price: 205.7 | quantity: 3 | 
-2021-04-13 00:18:27.673368 - [Order Placed] ITC | buy | price: 205.25 | quantity: 3 | Closed
+2021-04-13 09:33:36.964742 - First 15 min high: 207.2 | low: 206.0 | open: 207.0
+2021-04-13 09:34:37.605443 - [Order Placed] ITC | buy | price: 207.6 | quantity: 6 | 
+2021-04-13 10:05:51.372637 - [Order Placed] ITC | sell | price: 208.65 | quantity: 6 | Profit Booked
+2021-04-13 10:06:12.747609 - [Order Placed] ITC | buy | price: 208.65 | quantity: 6 | 

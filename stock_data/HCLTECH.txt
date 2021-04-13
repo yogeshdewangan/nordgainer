@@ -1,25 +1,10 @@
-2021-04-13 00:16:53.971880 - First 15 min high: 1042.95 | low: 1031.0 | open: 1042.95
-2021-04-13 00:17:37.193292 - [Order Placed] HCLTECH | sell | price: 1029.1 | quantity: 3 | 
-2021-04-13 00:17:41.863128 - [Order Placed] HCLTECH | buy | price: 1023.25 | quantity: 3 | Profit Booked
-2021-04-13 00:17:42.316275 - [Order Placed] HCLTECH | sell | price: 1023.0 | quantity: 3 | 
-2021-04-13 00:17:44.231182 - [Order Placed] HCLTECH | buy | price: 1017.8 | quantity: 3 | Profit Booked
-2021-04-13 00:17:44.387442 - [Order Placed] HCLTECH | sell | price: 1020.2 | quantity: 3 | 
-2021-04-13 00:17:45.467235 - [Order Placed] HCLTECH | buy | price: 1015.0 | quantity: 3 | Profit Booked
-2021-04-13 00:17:45.877527 - [Order Placed] HCLTECH | sell | price: 1013.8 | quantity: 3 | 
-2021-04-13 00:17:51.385333 - [Order Placed] HCLTECH | buy | price: 1007.85 | quantity: 3 | Profit Booked
-2021-04-13 00:17:51.557216 - [Order Placed] HCLTECH | sell | price: 1005.0 | quantity: 3 | 
-2021-04-13 00:17:53.910913 - [Order Placed] HCLTECH | buy | price: 1009.0 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:17:55.775344 - [Order Placed] HCLTECH | sell | price: 1009.95 | quantity: 3 | 
-2021-04-13 00:17:58.119276 - [Order Placed] HCLTECH | buy | price: 1011.0 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:01.252358 - [Order Placed] HCLTECH | sell | price: 1011.05 | quantity: 3 | 
-2021-04-13 00:18:06.724319 - [Order Placed] HCLTECH | buy | price: 1013.0 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:06.833699 - [Order Placed] HCLTECH | sell | price: 1013.35 | quantity: 3 | 
-2021-04-13 00:18:06.896202 - [Order Placed] HCLTECH | buy | price: 1014.65 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:07.239968 - [Order Placed] HCLTECH | sell | price: 1014.35 | quantity: 3 | 
-2021-04-13 00:18:09.334997 - [Order Placed] HCLTECH | buy | price: 1015.4 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:09.841629 - [Order Placed] HCLTECH | sell | price: 1014.7 | quantity: 3 | 
-2021-04-13 00:18:13.091790 - [Order Placed] HCLTECH | buy | price: 1015.8 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:13.498057 - [Order Placed] HCLTECH | sell | price: 1015.85 | quantity: 3 | 
-2021-04-13 00:18:19.092299 - [Order Placed] HCLTECH | buy | price: 1009.0 | quantity: 3 | Profit Booked
-2021-04-13 00:18:19.607952 - [Order Placed] HCLTECH | sell | price: 1010.05 | quantity: 3 | 
-2021-04-13 00:18:27.048336 - [Order Placed] HCLTECH | buy | price: 1008.4 | quantity: 3 | Closed
+2021-04-13 09:33:10.730360 - First 15 min high: 1020.8 | low: 996.5 | open: 1012.5
+2021-04-13 10:52:14.828065 - [Order Placed] HCLTECH | sell | price: 994.8 | quantity: 6 | 
+2021-04-13 10:54:26.875096 - [Order Placed] HCLTECH | buy | price: 988.9 | quantity: 6 | Profit Booked
+2021-04-13 10:54:48.812571 - [Order Placed] HCLTECH | sell | price: 992.1 | quantity: 6 | 
+2021-04-13 11:08:23.391405 - [Order Placed] HCLTECH | buy | price: 986.35 | quantity: 6 | Profit Booked
+2021-04-13 11:08:44.985370 - [Order Placed] HCLTECH | sell | price: 987.1 | quantity: 6 | 
+2021-04-13 11:17:13.688716 - [Order Placed] HCLTECH | buy | price: 982.15 | quantity: 6 | Profit Booked
+2021-04-13 11:17:35.626227 - [Order Placed] HCLTECH | sell | price: 984.5 | quantity: 6 | 
+2021-04-13 11:28:43.126757 - [Order Placed] HCLTECH | buy | price: 979.0 | quantity: 6 | Profit Booked
+2021-04-13 11:29:05.470528 - [Order Placed] HCLTECH | sell | price: 979.75 | quantity: 6 | 

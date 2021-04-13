@@ -1,25 +1,6 @@
-2021-04-13 00:17:23.756661 - First 15 min high: 344.0 | low: 335.15 | open: 344.0
-2021-04-13 00:17:37.825083 - [Order Placed] SBIN | sell | price: 334.65 | quantity: 3 | 
-2021-04-13 00:17:40.312832 - [Order Placed] SBIN | buy | price: 331.95 | quantity: 3 | Profit Booked
-2021-04-13 00:17:40.991681 - [Order Placed] SBIN | sell | price: 329.6 | quantity: 3 | 
-2021-04-13 00:17:41.581864 - [Order Placed] SBIN | buy | price: 327.8 | quantity: 3 | Profit Booked
-2021-04-13 00:17:42.144392 - [Order Placed] SBIN | sell | price: 328.0 | quantity: 3 | 
-2021-04-13 00:17:48.377025 - [Order Placed] SBIN | buy | price: 325.7 | quantity: 3 | Profit Booked
-2021-04-13 00:17:48.548912 - [Order Placed] SBIN | sell | price: 326.0 | quantity: 3 | 
-2021-04-13 00:17:50.341369 - [Order Placed] SBIN | buy | price: 324.1 | quantity: 3 | Profit Booked
-2021-04-13 00:17:50.638256 - [Order Placed] SBIN | sell | price: 323.4 | quantity: 3 | 
-2021-04-13 00:17:54.675960 - [Order Placed] SBIN | buy | price: 327.85 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:17:56.263670 - [Order Placed] SBIN | sell | price: 327.85 | quantity: 3 | 
-2021-04-13 00:18:00.144506 - [Order Placed] SBIN | buy | price: 328.65 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:01.705510 - [Order Placed] SBIN | sell | price: 328.4 | quantity: 3 | 
-2021-04-13 00:18:05.446126 - [Order Placed] SBIN | buy | price: 329.25 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:05.746025 - [Order Placed] SBIN | sell | price: 329.3 | quantity: 3 | 
-2021-04-13 00:18:08.115014 - [Order Placed] SBIN | buy | price: 329.9 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:08.834976 - [Order Placed] SBIN | sell | price: 330.6 | quantity: 3 | 
-2021-04-13 00:18:14.341849 - [Order Placed] SBIN | buy | price: 328.15 | quantity: 3 | Profit Booked
-2021-04-13 00:18:14.794995 - [Order Placed] SBIN | sell | price: 327.8 | quantity: 3 | 
-2021-04-13 00:18:22.201683 - [Order Placed] SBIN | buy | price: 326.1 | quantity: 3 | Profit Booked
-2021-04-13 00:18:22.436074 - [Order Placed] SBIN | sell | price: 327.0 | quantity: 3 | 
-2021-04-13 00:18:24.259735 - [Order Placed] SBIN | buy | price: 328.1 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:24.650924 - [Order Placed] SBIN | sell | price: 328.05 | quantity: 3 | 
-2021-04-13 00:18:28.124382 - [Order Placed] SBIN | buy | price: 327.7 | quantity: 3 | Closed
+2021-04-13 09:34:05.199206 - First 15 min high: 334.0 | low: 330.7 | open: 332.0
+2021-04-13 09:49:15.168749 - [Order Placed] SBIN | buy | price: 334.0 | quantity: 6 | 
+2021-04-13 10:02:36.341229 - [Order Placed] SBIN | sell | price: 335.65 | quantity: 6 | Profit Booked
+2021-04-13 10:02:58.716256 - [Order Placed] SBIN | buy | price: 335.75 | quantity: 6 | 
+2021-04-13 10:12:42.201087 - [Order Placed] SBIN | sell | price: 337.45 | quantity: 6 | Profit Booked
+2021-04-13 10:13:03.591763 - [Order Placed] SBIN | buy | price: 337.45 | quantity: 6 | 

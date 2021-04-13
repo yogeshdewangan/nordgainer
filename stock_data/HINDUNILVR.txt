@@ -1,3 +1,4 @@
-2021-04-13 00:17:02.848090 - First 15 min high: 2488.25 | low: 2441.5 | open: 2441.5
-2021-04-13 00:17:39.647047 - [Order Placed] HINDUNILVR | sell | price: 2438.8 | quantity: 3 | 
-2021-04-13 00:17:54.205750 - [Order Placed] HINDUNILVR | buy | price: 2445.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 09:33:26.339746 - First 15 min high: 2477.4 | low: 2463.4 | open: 2470.0
+2021-04-13 09:36:32.543028 - [Order Placed] HINDUNILVR | buy | price: 2478.25 | quantity: 6 | 
+2021-04-13 09:43:05.527732 - [Order Placed] HINDUNILVR | sell | price: 2491.95 | quantity: 6 | Profit Booked
+2021-04-13 09:43:27.324759 - [Order Placed] HINDUNILVR | buy | price: 2494.2 | quantity: 6 | 

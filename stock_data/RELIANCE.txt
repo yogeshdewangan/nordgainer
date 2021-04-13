@@ -1,21 +1,2 @@
-2021-04-13 00:17:21.322151 - First 15 min high: 1961.4 | low: 1940.0 | open: 1959.0
-2021-04-13 00:17:39.522041 - [Order Placed] RELIANCE | sell | price: 1939.85 | quantity: 3 | 
-2021-04-13 00:17:44.512446 - [Order Placed] RELIANCE | buy | price: 1929.3 | quantity: 3 | Profit Booked
-2021-04-13 00:17:44.574949 - [Order Placed] RELIANCE | sell | price: 1930.15 | quantity: 3 | 
-2021-04-13 00:17:51.019426 - [Order Placed] RELIANCE | buy | price: 1920.2 | quantity: 3 | Profit Booked
-2021-04-13 00:17:51.260327 - [Order Placed] RELIANCE | sell | price: 1923.05 | quantity: 3 | 
-2021-04-13 00:17:56.889143 - [Order Placed] RELIANCE | buy | price: 1912.95 | quantity: 3 | Profit Booked
-2021-04-13 00:17:57.005043 - [Order Placed] RELIANCE | sell | price: 1912.0 | quantity: 3 | 
-2021-04-13 00:18:06.083660 - [Order Placed] RELIANCE | buy | price: 1900.85 | quantity: 3 | Profit Booked
-2021-04-13 00:18:06.208667 - [Order Placed] RELIANCE | sell | price: 1904.0 | quantity: 3 | 
-2021-04-13 00:18:07.411850 - [Order Placed] RELIANCE | buy | price: 1910.0 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:07.818120 - [Order Placed] RELIANCE | sell | price: 1910.45 | quantity: 3 | 
-2021-04-13 00:18:08.068132 - [Order Placed] RELIANCE | buy | price: 1916.7 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:08.772471 - [Order Placed] RELIANCE | sell | price: 1914.7 | quantity: 3 | 
-2021-04-13 00:18:17.467218 - [Order Placed] RELIANCE | buy | price: 1917.85 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:17.701606 - [Order Placed] RELIANCE | sell | price: 1917.15 | quantity: 3 | 
-2021-04-13 00:18:21.467414 - [Order Placed] RELIANCE | buy | price: 1906.9 | quantity: 3 | Profit Booked
-2021-04-13 00:18:22.139182 - [Order Placed] RELIANCE | sell | price: 1905.0 | quantity: 3 | 
-2021-04-13 00:18:23.121046 - [Order Placed] RELIANCE | buy | price: 1909.1 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:24.150356 - [Order Placed] RELIANCE | sell | price: 1910.25 | quantity: 3 | 
-2021-04-13 00:18:28.015004 - [Order Placed] RELIANCE | buy | price: 1910.4 | quantity: 3 | Closed
+2021-04-13 09:33:57.074204 - First 15 min high: 1934.0 | low: 1924.0 | open: 1924.0
+2021-04-13 09:58:26.387922 - [Order Placed] RELIANCE | buy | price: 1934.55 | quantity: 6 | 

@@ -1,5 +1,2 @@
-2021-04-13 00:16:41.615183 - First 15 min high: 2605.6 | low: 2577.0 | open: 2578.2
-2021-04-13 00:17:38.300225 - [Order Placed] ASIANPAINT | sell | price: 2573.2 | quantity: 3 | 
-2021-04-13 00:17:41.800624 - [Order Placed] ASIANPAINT | buy | price: 2556.2 | quantity: 3 | Profit Booked
-2021-04-13 00:17:42.269400 - [Order Placed] ASIANPAINT | sell | price: 2561.2 | quantity: 3 | 
-2021-04-13 00:17:53.511140 - [Order Placed] ASIANPAINT | buy | price: 2589.45 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 09:32:50.527418 - First 15 min high: 2611.5 | low: 2582.45 | open: 2600.0
+2021-04-13 09:35:27.277406 - [Order Placed] ASIANPAINT | sell | price: 2580.75 | quantity: 6 | 

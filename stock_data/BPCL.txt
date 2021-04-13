@@ -1,25 +1,6 @@
-2021-04-13 00:16:45.652874 - First 15 min high: 419.4 | low: 414.8 | open: 417.95
-2021-04-13 00:17:37.011383 - [Order Placed] BPCL | sell | price: 414.7 | quantity: 3 | 
-2021-04-13 00:17:38.363267 - [Order Placed] BPCL | buy | price: 412.0 | quantity: 3 | Profit Booked
-2021-04-13 00:17:38.814250 - [Order Placed] BPCL | sell | price: 410.15 | quantity: 3 | 
-2021-04-13 00:17:49.486455 - [Order Placed] BPCL | buy | price: 408.0 | quantity: 3 | Profit Booked
-2021-04-13 00:17:49.595839 - [Order Placed] BPCL | sell | price: 407.3 | quantity: 3 | 
-2021-04-13 00:17:51.860149 - [Order Placed] BPCL | buy | price: 405.05 | quantity: 3 | Profit Booked
-2021-04-13 00:17:52.089195 - [Order Placed] BPCL | sell | price: 405.85 | quantity: 3 | 
-2021-04-13 00:17:53.620517 - [Order Placed] BPCL | buy | price: 406.55 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:17:55.360059 - [Order Placed] BPCL | sell | price: 407.1 | quantity: 3 | 
-2021-04-13 00:17:57.527237 - [Order Placed] BPCL | buy | price: 407.65 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:17:58.003379 - [Order Placed] BPCL | sell | price: 407.6 | quantity: 3 | 
-2021-04-13 00:18:04.816871 - [Order Placed] BPCL | buy | price: 405.5 | quantity: 3 | Profit Booked
-2021-04-13 00:18:05.149237 - [Order Placed] BPCL | sell | price: 405.45 | quantity: 3 | 
-2021-04-13 00:18:08.396277 - [Order Placed] BPCL | buy | price: 406.5 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:09.225617 - [Order Placed] BPCL | sell | price: 406.35 | quantity: 3 | 
-2021-04-13 00:18:16.514046 - [Order Placed] BPCL | buy | price: 404.25 | quantity: 3 | Profit Booked
-2021-04-13 00:18:16.732810 - [Order Placed] BPCL | sell | price: 404.1 | quantity: 3 | 
-2021-04-13 00:18:17.935991 - [Order Placed] BPCL | buy | price: 404.55 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:18.279758 - [Order Placed] BPCL | sell | price: 404.75 | quantity: 3 | 
-2021-04-13 00:18:18.982917 - [Order Placed] BPCL | buy | price: 402.75 | quantity: 3 | Profit Booked
-2021-04-13 00:18:19.498568 - [Order Placed] BPCL | sell | price: 403.05 | quantity: 3 | 
-2021-04-13 00:18:22.788953 - [Order Placed] BPCL | buy | price: 403.5 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:23.755129 - [Order Placed] BPCL | sell | price: 402.8 | quantity: 3 | 
-2021-04-13 00:18:26.879537 - [Order Placed] BPCL | buy | price: 403.7 | quantity: 3 | Closed
+2021-04-13 09:32:58.199112 - First 15 min high: 407.85 | low: 402.2 | open: 405.0
+2021-04-13 09:36:32.246139 - [Order Placed] BPCL | buy | price: 408.15 | quantity: 6 | 
+2021-04-13 09:55:55.262715 - [Order Placed] BPCL | sell | price: 410.2 | quantity: 6 | Profit Booked
+2021-04-13 09:56:16.622125 - [Order Placed] BPCL | buy | price: 410.15 | quantity: 6 | 
+2021-04-13 10:09:49.841606 - [Order Placed] BPCL | sell | price: 412.2 | quantity: 6 | Profit Booked
+2021-04-13 10:10:11.529083 - [Order Placed] BPCL | buy | price: 412.15 | quantity: 6 | 

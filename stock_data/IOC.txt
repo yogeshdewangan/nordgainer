@@ -1,13 +1,4 @@
-2021-04-13 00:17:08.842587 - First 15 min high: 90.45 | low: 88.8 | open: 90.1
-2021-04-13 00:17:36.823877 - [Order Placed] IOC | sell | price: 88.8 | quantity: 3 | 
-2021-04-13 00:17:38.473342 - [Order Placed] IOC | buy | price: 88.15 | quantity: 3 | Profit Booked
-2021-04-13 00:17:38.932329 - [Order Placed] IOC | sell | price: 88.15 | quantity: 3 | 
-2021-04-13 00:17:42.097513 - [Order Placed] IOC | buy | price: 87.35 | quantity: 3 | Profit Booked
-2021-04-13 00:17:42.441280 - [Order Placed] IOC | sell | price: 87.7 | quantity: 3 | 
-2021-04-13 00:17:48.314524 - [Order Placed] IOC | buy | price: 87.2 | quantity: 3 | Profit Booked
-2021-04-13 00:17:48.486409 - [Order Placed] IOC | sell | price: 87.2 | quantity: 3 | 
-2021-04-13 00:17:57.714746 - [Order Placed] IOC | buy | price: 87.6 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:17:59.115702 - [Order Placed] IOC | sell | price: 87.55 | quantity: 3 | 
-2021-04-13 00:18:15.935678 - [Order Placed] IOC | buy | price: 87.1 | quantity: 3 | Profit Booked
-2021-04-13 00:18:16.279443 - [Order Placed] IOC | sell | price: 87.15 | quantity: 3 | 
-2021-04-13 00:18:27.610862 - [Order Placed] IOC | buy | price: 86.9 | quantity: 3 | Closed
+2021-04-13 09:33:34.730351 - First 15 min high: 88.35 | low: 87.1 | open: 87.2
+2021-04-13 09:34:37.308579 - [Order Placed] IOC | buy | price: 88.45 | quantity: 6 | 
+2021-04-13 09:57:43.200292 - [Order Placed] IOC | sell | price: 88.9 | quantity: 6 | Profit Booked
+2021-04-13 09:58:04.684763 - [Order Placed] IOC | buy | price: 88.9 | quantity: 6 | 

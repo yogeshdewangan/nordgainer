@@ -310,8 +310,11 @@ if __name__ == '__main__':
             floating_pl = 0
 
             print("#############################################################################################################")
-            if total_profit > int(conf_reader.props["profit"]):
-                close_all_positions(profit)
+            try:
+                if total_profit > int(conf_reader.props["profit"]):
+                    close_all_positions(profit)
+            except:
+                pass
             time.sleep(loop_wait_time_sec)
 
         if what_next == "wait":

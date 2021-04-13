@@ -1,37 +1,12 @@
-2021-04-13 00:17:15.702701 - First 15 min high: 779.0 | low: 761.15 | open: 779.0
-2021-04-13 00:17:42.985213 - [Order Placed] M&M | sell | price: 759.95 | quantity: 3 | 
-2021-04-13 00:17:46.305475 - [Order Placed] M&M | buy | price: 755.75 | quantity: 3 | Profit Booked
-2021-04-13 00:17:46.367980 - [Order Placed] M&M | sell | price: 755.9 | quantity: 3 | 
-2021-04-13 00:17:47.222770 - [Order Placed] M&M | buy | price: 751.8 | quantity: 3 | Profit Booked
-2021-04-13 00:17:47.285275 - [Order Placed] M&M | sell | price: 752.4 | quantity: 3 | 
-2021-04-13 00:17:49.658337 - [Order Placed] M&M | buy | price: 748.35 | quantity: 3 | Profit Booked
-2021-04-13 00:17:49.906376 - [Order Placed] M&M | sell | price: 748.55 | quantity: 3 | 
-2021-04-13 00:17:51.619720 - [Order Placed] M&M | buy | price: 744.75 | quantity: 3 | Profit Booked
-2021-04-13 00:17:51.729099 - [Order Placed] M&M | sell | price: 742.5 | quantity: 3 | 
-2021-04-13 00:18:02.111776 - [Order Placed] M&M | buy | price: 743.3 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:02.393042 - [Order Placed] M&M | sell | price: 743.45 | quantity: 3 | 
-2021-04-13 00:18:02.805336 - [Order Placed] M&M | buy | price: 745.5 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:03.215569 - [Order Placed] M&M | sell | price: 745.3 | quantity: 3 | 
-2021-04-13 00:18:03.872807 - [Order Placed] M&M | buy | price: 746.35 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:04.060282 - [Order Placed] M&M | sell | price: 746.5 | quantity: 3 | 
-2021-04-13 00:18:04.575939 - [Order Placed] M&M | buy | price: 748.3 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:04.986195 - [Order Placed] M&M | sell | price: 747.85 | quantity: 3 | 
-2021-04-13 00:18:05.274243 - [Order Placed] M&M | buy | price: 751.0 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:05.399248 - [Order Placed] M&M | sell | price: 750.55 | quantity: 3 | 
-2021-04-13 00:18:06.489932 - [Order Placed] M&M | buy | price: 751.75 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:06.786822 - [Order Placed] M&M | sell | price: 750.75 | quantity: 3 | 
-2021-04-13 00:18:07.005583 - [Order Placed] M&M | buy | price: 751.55 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:07.302472 - [Order Placed] M&M | sell | price: 753.4 | quantity: 3 | 
-2021-04-13 00:18:10.154146 - [Order Placed] M&M | buy | price: 754.6 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:10.326029 - [Order Placed] M&M | sell | price: 753.3 | quantity: 3 | 
-2021-04-13 00:18:10.794805 - [Order Placed] M&M | buy | price: 755.1 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:11.076064 - [Order Placed] M&M | sell | price: 755.0 | quantity: 3 | 
-2021-04-13 00:18:12.091741 - [Order Placed] M&M | buy | price: 755.95 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:12.216747 - [Order Placed] M&M | sell | price: 755.75 | quantity: 3 | 
-2021-04-13 00:18:14.279350 - [Order Placed] M&M | buy | price: 751.65 | quantity: 3 | Profit Booked
-2021-04-13 00:18:14.732492 - [Order Placed] M&M | sell | price: 750.4 | quantity: 3 | 
-2021-04-13 00:18:19.201677 - [Order Placed] M&M | buy | price: 746.5 | quantity: 3 | Profit Booked
-2021-04-13 00:18:19.779835 - [Order Placed] M&M | sell | price: 748.25 | quantity: 3 | 
-2021-04-13 00:18:24.603873 - [Order Placed] M&M | buy | price: 750.65 | quantity: 3 | SL Hit | Current Price > Positive Range
-2021-04-13 00:18:24.937438 - [Order Placed] M&M | sell | price: 752.8 | quantity: 3 | 
-2021-04-13 00:18:27.776197 - [Order Placed] M&M | buy | price: 750.0 | quantity: 3 | Closed
+2021-04-13 09:33:47.480560 - First 15 min high: 766.5 | low: 750.8 | open: 754.0
+2021-04-13 09:34:38.402329 - [Order Placed] M&M | buy | price: 767.45 | quantity: 6 | 
+2021-04-13 09:39:24.636976 - [Order Placed] M&M | sell | price: 774.45 | quantity: 6 | Profit Booked
+2021-04-13 09:39:46.027564 - [Order Placed] M&M | buy | price: 774.25 | quantity: 6 | 
+2021-04-13 09:45:20.230937 - [Order Placed] M&M | sell | price: 778.2 | quantity: 6 | Profit Booked
+2021-04-13 09:45:42.012260 - [Order Placed] M&M | buy | price: 776.8 | quantity: 6 | 
+2021-04-13 09:50:05.156102 - [Order Placed] M&M | sell | price: 780.7 | quantity: 6 | Profit Booked
+2021-04-13 09:50:30.762493 - [Order Placed] M&M | buy | price: 781.05 | quantity: 6 | 
+2021-04-13 10:16:19.763785 - [Order Placed] M&M | sell | price: 784.95 | quantity: 6 | Profit Booked
+2021-04-13 10:16:41.107745 - [Order Placed] M&M | buy | price: 783.7 | quantity: 6 | 
+2021-04-13 11:26:54.657963 - [Order Placed] M&M | sell | price: 787.65 | quantity: 6 | Profit Booked
+2021-04-13 11:27:16.814247 - [Order Placed] M&M | buy | price: 788.0 | quantity: 6 | 
