@@ -248,6 +248,7 @@ if __name__ == '__main__':
                                         if placed:
                                             profit += (current_price - ltp) * stock.quantity
                                             stock.purchased = True
+                                            stock.buy_or_sell = Type.Sell
 
                                 if stock.buy_or_sell == Type.Sell:
                                     if current_price > positive_range:
@@ -257,6 +258,7 @@ if __name__ == '__main__':
                                         if placed:
                                             profit += (ltp - current_price) * stock.quantity
                                             stock.purchased = True
+                                            stock.buy_or_sell = Type.Buy
 
                             # Book profit
                             if stock.purchased:
