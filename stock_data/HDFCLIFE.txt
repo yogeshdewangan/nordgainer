@@ -1,2 +1,3 @@
-2021-04-12 09:38:44.061100 - First 15 min high: 690.0 | low: 684.0 | open: 685.0
-2021-04-12 09:39:55.443506 - [Order Placed] HDFCLIFE | sell | price: 679.9 | quantity: 3 | 
+2021-04-13 00:16:58.576558 - First 15 min high: 690.0 | low: 684.0 | open: 685.0
+2021-04-13 00:17:38.871289 - [Order Placed] HDFCLIFE | sell | price: 683.1 | quantity: 3 | 
+2021-04-13 00:17:54.027352 - [Order Placed] HDFCLIFE | buy | price: 688.15 | quantity: 3 | SL Hit | Current Price > Positive Range

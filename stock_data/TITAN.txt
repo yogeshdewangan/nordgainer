@@ -1,2 +1,17 @@
-2021-04-12 09:39:51.291899 - First 15 min high: 1572.65 | low: 1536.1 | open: 1571.0
-2021-04-12 09:39:55.568509 - [Order Placed] TITAN | sell | price: 1535.2 | quantity: 3 | 
+2021-04-13 00:17:33.457215 - First 15 min high: 1572.65 | low: 1536.1 | open: 1571.0
+2021-04-13 00:17:37.644964 - [Order Placed] TITAN | sell | price: 1530.0 | quantity: 3 | 
+2021-04-13 00:17:42.806775 - [Order Placed] TITAN | buy | price: 1521.95 | quantity: 3 | Profit Booked
+2021-04-13 00:17:43.104638 - [Order Placed] TITAN | sell | price: 1524.0 | quantity: 3 | 
+2021-04-13 00:17:52.292330 - [Order Placed] TITAN | buy | price: 1515.8 | quantity: 3 | Profit Booked
+2021-04-13 00:17:52.354830 - [Order Placed] TITAN | sell | price: 1515.0 | quantity: 3 | 
+2021-04-13 00:17:55.078794 - [Order Placed] TITAN | buy | price: 1519.35 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:17:56.607432 - [Order Placed] TITAN | sell | price: 1520.75 | quantity: 3 | 
+2021-04-13 00:18:05.555508 - [Order Placed] TITAN | buy | price: 1511.85 | quantity: 3 | Profit Booked
+2021-04-13 00:18:05.798410 - [Order Placed] TITAN | sell | price: 1512.0 | quantity: 3 | 
+2021-04-13 00:18:09.006857 - [Order Placed] TITAN | buy | price: 1513.7 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:09.732253 - [Order Placed] TITAN | sell | price: 1512.05 | quantity: 3 | 
+2021-04-13 00:18:15.357523 - [Order Placed] TITAN | buy | price: 1503.7 | quantity: 3 | Profit Booked
+2021-04-13 00:18:15.763797 - [Order Placed] TITAN | sell | price: 1505.0 | quantity: 3 | 
+2021-04-13 00:18:18.107874 - [Order Placed] TITAN | buy | price: 1507.7 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:18.545398 - [Order Placed] TITAN | sell | price: 1508.75 | quantity: 3 | 
+2021-04-13 00:18:28.468149 - [Order Placed] TITAN | buy | price: 1509.25 | quantity: 3 | Closed

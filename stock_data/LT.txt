@@ -1,2 +1,23 @@
-2021-04-12 09:39:18.230764 - First 15 min high: 1393.95 | low: 1374.2 | open: 1393.95
-2021-04-12 09:39:55.490381 - [Order Placed] LT | sell | price: 1360.45 | quantity: 3 | 
+2021-04-13 00:17:14.506121 - First 15 min high: 1393.95 | low: 1374.2 | open: 1393.95
+2021-04-13 00:17:37.302363 - [Order Placed] LT | sell | price: 1373.35 | quantity: 3 | 
+2021-04-13 00:17:38.519415 - [Order Placed] LT | buy | price: 1365.1 | quantity: 3 | Profit Booked
+2021-04-13 00:17:38.993371 - [Order Placed] LT | sell | price: 1368.6 | quantity: 3 | 
+2021-04-13 00:17:40.079960 - [Order Placed] LT | buy | price: 1361.05 | quantity: 3 | Profit Booked
+2021-04-13 00:17:40.767025 - [Order Placed] LT | sell | price: 1355.75 | quantity: 3 | 
+2021-04-13 00:17:45.576618 - [Order Placed] LT | buy | price: 1348.4 | quantity: 3 | Profit Booked
+2021-04-13 00:17:45.994559 - [Order Placed] LT | sell | price: 1351.3 | quantity: 3 | 
+2021-04-13 00:17:48.752042 - [Order Placed] LT | buy | price: 1344.15 | quantity: 3 | Profit Booked
+2021-04-13 00:17:48.814550 - [Order Placed] LT | sell | price: 1344.65 | quantity: 3 | 
+2021-04-13 00:17:50.919155 - [Order Placed] LT | buy | price: 1336.7 | quantity: 3 | Profit Booked
+2021-04-13 00:17:51.197824 - [Order Placed] LT | sell | price: 1338.45 | quantity: 3 | 
+2021-04-13 00:17:54.502639 - [Order Placed] LT | buy | price: 1343.3 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:17:56.107409 - [Order Placed] LT | sell | price: 1342.5 | quantity: 3 | 
+2021-04-13 00:17:59.725641 - [Order Placed] LT | buy | price: 1348.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:01.533622 - [Order Placed] LT | sell | price: 1345.75 | quantity: 3 | 
+2021-04-13 00:18:03.403077 - [Order Placed] LT | buy | price: 1339.0 | quantity: 3 | Profit Booked
+2021-04-13 00:18:03.465580 - [Order Placed] LT | sell | price: 1339.0 | quantity: 3 | 
+2021-04-13 00:18:03.699968 - [Order Placed] LT | buy | price: 1340.85 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:03.819864 - [Order Placed] LT | sell | price: 1339.85 | quantity: 3 | 
+2021-04-13 00:18:25.553418 - [Order Placed] LT | buy | price: 1341.5 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:26.006566 - [Order Placed] LT | sell | price: 1340.75 | quantity: 3 | 
+2021-04-13 00:18:27.713690 - [Order Placed] LT | buy | price: 1339.7 | quantity: 3 | Closed

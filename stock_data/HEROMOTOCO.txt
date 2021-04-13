@@ -1,2 +1,27 @@
-2021-04-12 09:38:48.023937 - First 15 min high: 2889.95 | low: 2842.1 | open: 2874.0
-2021-04-12 09:39:55.443506 - [Order Placed] HEROMOTOCO | sell | price: 2795.5 | quantity: 3 | 
+2021-04-13 00:17:00.073087 - First 15 min high: 2889.95 | low: 2842.1 | open: 2874.0
+2021-04-13 00:17:37.252330 - [Order Placed] HEROMOTOCO | sell | price: 2840.0 | quantity: 3 | 
+2021-04-13 00:17:39.168139 - [Order Placed] HEROMOTOCO | buy | price: 2825.0 | quantity: 3 | Profit Booked
+2021-04-13 00:17:39.462671 - [Order Placed] HEROMOTOCO | sell | price: 2830.45 | quantity: 3 | 
+2021-04-13 00:17:39.940830 - [Order Placed] HEROMOTOCO | buy | price: 2814.5 | quantity: 3 | Profit Booked
+2021-04-13 00:17:40.709602 - [Order Placed] HEROMOTOCO | sell | price: 2807.05 | quantity: 3 | 
+2021-04-13 00:17:41.925630 - [Order Placed] HEROMOTOCO | buy | price: 2791.85 | quantity: 3 | Profit Booked
+2021-04-13 00:17:42.378780 - [Order Placed] HEROMOTOCO | sell | price: 2792.6 | quantity: 3 | 
+2021-04-13 00:17:46.696157 - [Order Placed] HEROMOTOCO | buy | price: 2778.4 | quantity: 3 | Profit Booked
+2021-04-13 00:17:46.796389 - [Order Placed] HEROMOTOCO | sell | price: 2780.1 | quantity: 3 | 
+2021-04-13 00:17:48.142637 - [Order Placed] HEROMOTOCO | buy | price: 2765.4 | quantity: 3 | Profit Booked
+2021-04-13 00:17:48.205141 - [Order Placed] HEROMOTOCO | sell | price: 2768.1 | quantity: 3 | 
+2021-04-13 00:17:50.513250 - [Order Placed] HEROMOTOCO | buy | price: 2753.0 | quantity: 3 | Profit Booked
+2021-04-13 00:17:50.849494 - [Order Placed] HEROMOTOCO | sell | price: 2750.1 | quantity: 3 | 
+2021-04-13 00:17:54.080739 - [Order Placed] HEROMOTOCO | buy | price: 2778.15 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:17:55.822228 - [Order Placed] HEROMOTOCO | sell | price: 2780.75 | quantity: 3 | 
+2021-04-13 00:17:57.589740 - [Order Placed] HEROMOTOCO | buy | price: 2787.05 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:17:58.447416 - [Order Placed] HEROMOTOCO | sell | price: 2788.55 | quantity: 3 | 
+2021-04-13 00:18:02.049276 - [Order Placed] HEROMOTOCO | buy | price: 2793.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:02.330541 - [Order Placed] HEROMOTOCO | sell | price: 2797.0 | quantity: 3 | 
+2021-04-13 00:18:04.466558 - [Order Placed] HEROMOTOCO | buy | price: 2802.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:04.870294 - [Order Placed] HEROMOTOCO | sell | price: 2800.05 | quantity: 3 | 
+2021-04-13 00:18:08.567595 - [Order Placed] HEROMOTOCO | buy | price: 2807.05 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:09.460007 - [Order Placed] HEROMOTOCO | sell | price: 2800.2 | quantity: 3 | 
+2021-04-13 00:18:13.544939 - [Order Placed] HEROMOTOCO | buy | price: 2782.1 | quantity: 3 | Profit Booked
+2021-04-13 00:18:14.123087 - [Order Placed] HEROMOTOCO | sell | price: 2785.15 | quantity: 3 | 
+2021-04-13 00:18:27.235847 - [Order Placed] HEROMOTOCO | buy | price: 2785.4 | quantity: 3 | Closed

@@ -1,2 +1,55 @@
-2021-04-12 09:38:08.583127 - First 15 min high: 809.9 | low: 784.3 | open: 809.9
-2021-04-12 09:39:55.380996 - [Order Placed] ADANIPORTS | sell | price: 778.95 | quantity: 3 | 
+2021-04-13 00:16:40.088444 - First 15 min high: 809.9 | low: 784.3 | open: 809.9
+2021-04-13 00:17:36.886376 - [Order Placed] ADANIPORTS | sell | price: 781.0 | quantity: 3 | 
+2021-04-13 00:17:37.999785 - [Order Placed] ADANIPORTS | buy | price: 771.0 | quantity: 3 | Profit Booked
+2021-04-13 00:17:38.131747 - [Order Placed] ADANIPORTS | sell | price: 775.45 | quantity: 3 | 
+2021-04-13 00:17:38.244189 - [Order Placed] ADANIPORTS | buy | price: 770.2 | quantity: 3 | Profit Booked
+2021-04-13 00:17:38.760216 - [Order Placed] ADANIPORTS | sell | price: 777.2 | quantity: 3 | 
+2021-04-13 00:17:41.738121 - [Order Placed] ADANIPORTS | buy | price: 772.65 | quantity: 3 | Profit Booked
+2021-04-13 00:17:42.206894 - [Order Placed] ADANIPORTS | sell | price: 777.85 | quantity: 3 | 
+2021-04-13 00:17:45.049436 - [Order Placed] ADANIPORTS | buy | price: 773.25 | quantity: 3 | Profit Booked
+2021-04-13 00:17:45.117981 - [Order Placed] ADANIPORTS | sell | price: 775.65 | quantity: 3 | 
+2021-04-13 00:17:45.410915 - [Order Placed] ADANIPORTS | buy | price: 769.3 | quantity: 3 | Profit Booked
+2021-04-13 00:17:45.815026 - [Order Placed] ADANIPORTS | sell | price: 772.6 | quantity: 3 | 
+2021-04-13 00:17:47.029223 - [Order Placed] ADANIPORTS | buy | price: 768.4 | quantity: 3 | Profit Booked
+2021-04-13 00:17:47.175896 - [Order Placed] ADANIPORTS | sell | price: 765.4 | quantity: 3 | 
+2021-04-13 00:17:48.877051 - [Order Placed] ADANIPORTS | buy | price: 761.25 | quantity: 3 | Profit Booked
+2021-04-13 00:17:48.986432 - [Order Placed] ADANIPORTS | sell | price: 758.5 | quantity: 3 | 
+2021-04-13 00:17:50.153860 - [Order Placed] ADANIPORTS | buy | price: 752.15 | quantity: 3 | Profit Booked
+2021-04-13 00:17:50.388246 - [Order Placed] ADANIPORTS | sell | price: 746.05 | quantity: 3 | 
+2021-04-13 00:17:51.791605 - [Order Placed] ADANIPORTS | buy | price: 741.25 | quantity: 3 | Profit Booked
+2021-04-13 00:17:52.042315 - [Order Placed] ADANIPORTS | sell | price: 744.0 | quantity: 3 | 
+2021-04-13 00:17:53.448635 - [Order Placed] ADANIPORTS | buy | price: 756.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:17:55.250681 - [Order Placed] ADANIPORTS | sell | price: 755.7 | quantity: 3 | 
+2021-04-13 00:17:57.355353 - [Order Placed] ADANIPORTS | buy | price: 751.0 | quantity: 3 | Profit Booked
+2021-04-13 00:17:57.480360 - [Order Placed] ADANIPORTS | sell | price: 752.8 | quantity: 3 | 
+2021-04-13 00:17:57.903167 - [Order Placed] ADANIPORTS | buy | price: 755.1 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:01.096102 - [Order Placed] ADANIPORTS | sell | price: 753.85 | quantity: 3 | 
+2021-04-13 00:18:02.158655 - [Order Placed] ADANIPORTS | buy | price: 755.55 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:02.576637 - [Order Placed] ADANIPORTS | sell | price: 754.1 | quantity: 3 | 
+2021-04-13 00:18:03.037162 - [Order Placed] ADANIPORTS | buy | price: 755.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:03.340574 - [Order Placed] ADANIPORTS | sell | price: 753.35 | quantity: 3 | 
+2021-04-13 00:18:03.528087 - [Order Placed] ADANIPORTS | buy | price: 754.2 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:03.757361 - [Order Placed] ADANIPORTS | sell | price: 753.3 | quantity: 3 | 
+2021-04-13 00:18:04.754363 - [Order Placed] ADANIPORTS | buy | price: 754.1 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:05.102360 - [Order Placed] ADANIPORTS | sell | price: 753.75 | quantity: 3 | 
+2021-04-13 00:18:05.899209 - [Order Placed] ADANIPORTS | buy | price: 754.9 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:06.014137 - [Order Placed] ADANIPORTS | sell | price: 753.75 | quantity: 3 | 
+2021-04-13 00:18:06.146164 - [Order Placed] ADANIPORTS | buy | price: 754.8 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:06.380554 - [Order Placed] ADANIPORTS | sell | price: 754.5 | quantity: 3 | 
+2021-04-13 00:18:07.943126 - [Order Placed] ADANIPORTS | buy | price: 756.8 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:08.286895 - [Order Placed] ADANIPORTS | sell | price: 757.9 | quantity: 3 | 
+2021-04-13 00:18:11.529214 - [Order Placed] ADANIPORTS | buy | price: 758.9 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:11.935483 - [Order Placed] ADANIPORTS | sell | price: 757.45 | quantity: 3 | 
+2021-04-13 00:18:13.951204 - [Order Placed] ADANIPORTS | buy | price: 753.1 | quantity: 3 | Profit Booked
+2021-04-13 00:18:14.451228 - [Order Placed] ADANIPORTS | sell | price: 750.65 | quantity: 3 | 
+2021-04-13 00:18:18.920418 - [Order Placed] ADANIPORTS | buy | price: 745.0 | quantity: 3 | Profit Booked
+2021-04-13 00:18:19.436068 - [Order Placed] ADANIPORTS | sell | price: 745.75 | quantity: 3 | 
+2021-04-13 00:18:20.076721 - [Order Placed] ADANIPORTS | buy | price: 746.8 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:20.186101 - [Order Placed] ADANIPORTS | sell | price: 745.55 | quantity: 3 | 
+2021-04-13 00:18:20.826760 - [Order Placed] ADANIPORTS | buy | price: 740.8 | quantity: 3 | Profit Booked
+2021-04-13 00:18:21.186156 - [Order Placed] ADANIPORTS | sell | price: 739.05 | quantity: 3 | 
+2021-04-13 00:18:22.670457 - [Order Placed] ADANIPORTS | buy | price: 742.8 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:23.574192 - [Order Placed] ADANIPORTS | sell | price: 742.1 | quantity: 3 | 
+2021-04-13 00:18:24.705313 - [Order Placed] ADANIPORTS | buy | price: 743.5 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:25.225278 - [Order Placed] ADANIPORTS | sell | price: 742.7 | quantity: 3 | 
+2021-04-13 00:18:26.763125 - [Order Placed] ADANIPORTS | buy | price: 741.5 | quantity: 3 | Closed

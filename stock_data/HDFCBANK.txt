@@ -1,2 +1,17 @@
-2021-04-12 09:38:39.711738 - First 15 min high: 1399.0 | low: 1379.0 | open: 1393.0
-2021-04-12 09:39:55.427880 - [Order Placed] HDFCBANK | sell | price: 1378.25 | quantity: 3 | 
+2021-04-13 00:16:57.312499 - First 15 min high: 1399.0 | low: 1379.0 | open: 1393.0
+2021-04-13 00:17:39.584546 - [Order Placed] HDFCBANK | sell | price: 1377.9 | quantity: 3 | 
+2021-04-13 00:17:53.089243 - [Order Placed] HDFCBANK | buy | price: 1371.0 | quantity: 3 | Profit Booked
+2021-04-13 00:17:53.151745 - [Order Placed] HDFCBANK | sell | price: 1371.1 | quantity: 3 | 
+2021-04-13 00:18:07.693115 - [Order Placed] HDFCBANK | buy | price: 1364.25 | quantity: 3 | Profit Booked
+2021-04-13 00:18:08.005631 - [Order Placed] HDFCBANK | sell | price: 1364.65 | quantity: 3 | 
+2021-04-13 00:18:08.505656 - [Order Placed] HDFCBANK | buy | price: 1366.9 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:09.397506 - [Order Placed] HDFCBANK | sell | price: 1365.8 | quantity: 3 | 
+2021-04-13 00:18:14.560611 - [Order Placed] HDFCBANK | buy | price: 1358.1 | quantity: 3 | Profit Booked
+2021-04-13 00:18:15.029382 - [Order Placed] HDFCBANK | sell | price: 1357.65 | quantity: 3 | 
+2021-04-13 00:18:19.670451 - [Order Placed] HDFCBANK | buy | price: 1359.7 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:20.014217 - [Order Placed] HDFCBANK | sell | price: 1359.0 | quantity: 3 | 
+2021-04-13 00:18:20.529867 - [Order Placed] HDFCBANK | buy | price: 1362.2 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:20.951765 - [Order Placed] HDFCBANK | sell | price: 1361.0 | quantity: 3 | 
+2021-04-13 00:18:25.381535 - [Order Placed] HDFCBANK | buy | price: 1362.7 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:25.944064 - [Order Placed] HDFCBANK | sell | price: 1362.5 | quantity: 3 | 
+2021-04-13 00:18:27.173340 - [Order Placed] HDFCBANK | buy | price: 1362.05 | quantity: 3 | Closed

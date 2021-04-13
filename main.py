@@ -212,6 +212,8 @@ if __name__ == '__main__':
                             if back_test:
                                 current_price = stock.price_list[stock.count]
                                 stock.count += 1
+                                if stock.count > 245:
+                                    conf_reader.props["stop_loss_per"] = 0.1
 
                                 if stock.count > len(stock.price_list) - 2:
                                     close_all_positions(profit)
@@ -219,6 +221,8 @@ if __name__ == '__main__':
                             else:
                                 current_price = truedata.get_current_data(stock.req_code)
                             stock.current_price = current_price
+
+
 
                             # First time purchase
                             if not stock.purchased:
@@ -288,6 +292,7 @@ if __name__ == '__main__':
                     print_and_log("Stock found in stop list: {}".format(stock.symbol))
                 # print_and_log("==================================================================")
             if not back_test:
+                total_profit = bridge.get_m2m()
                 print("P & L : " + str(bridge.get_m2m()))
                 print("Margin: " + str(bridge.get_balace()))
             print_and_log("Tool Calculated Profit: " + str(profit))
@@ -305,7 +310,10 @@ if __name__ == '__main__':
             floating_pl = 0
 
             print("#############################################################################################################")
+            if total_profit > int(conf_reader.props["profit"]):
+                close_all_positions(profit)
             time.sleep(loop_wait_time_sec)
+
         if what_next == "wait":
             print("Waiting for the configured start time")
 

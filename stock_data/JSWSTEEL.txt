@@ -1,2 +1,7 @@
-2021-04-12 09:39:13.064334 - First 15 min high: 609.0 | low: 598.1 | open: 609.0
-2021-04-12 09:39:55.474757 - [Order Placed] JSWSTEEL | buy | price: 615.65 | quantity: 3 | 
+2021-04-13 00:17:11.868832 - First 15 min high: 609.0 | low: 598.1 | open: 609.0
+2021-04-13 00:17:39.215017 - [Order Placed] JSWSTEEL | buy | price: 609.9 | quantity: 3 | 
+2021-04-13 00:17:43.279533 - [Order Placed] JSWSTEEL | sell | price: 614.5 | quantity: 3 | Profit Booked
+2021-04-13 00:17:43.342030 - [Order Placed] JSWSTEEL | buy | price: 616.95 | quantity: 3 | 
+2021-04-13 00:17:43.638920 - [Order Placed] JSWSTEEL | sell | price: 621.15 | quantity: 3 | Profit Booked
+2021-04-13 00:17:43.763929 - [Order Placed] JSWSTEEL | buy | price: 617.65 | quantity: 3 | 
+2021-04-13 00:17:54.377632 - [Order Placed] JSWSTEEL | sell | price: 603.0 | quantity: 3 | SL Hit | Current Price < Negative Range

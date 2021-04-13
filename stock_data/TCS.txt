@@ -1,2 +1,17 @@
-2021-04-12 09:39:47.434106 - First 15 min high: 3338.1 | low: 3306.35 | open: 3322.25
-2021-04-12 09:39:55.552883 - [Order Placed] TCS | sell | price: 3293.2 | quantity: 3 | 
+2021-04-13 00:17:30.715501 - First 15 min high: 3338.1 | low: 3306.35 | open: 3322.25
+2021-04-13 00:17:37.529887 - [Order Placed] TCS | sell | price: 3289.9 | quantity: 3 | 
+2021-04-13 00:17:42.488157 - [Order Placed] TCS | buy | price: 3270.8 | quantity: 3 | Profit Booked
+2021-04-13 00:17:42.738169 - [Order Placed] TCS | sell | price: 3269.75 | quantity: 3 | 
+2021-04-13 00:17:44.153055 - [Order Placed] TCS | buy | price: 3252.3 | quantity: 3 | Profit Booked
+2021-04-13 00:17:44.324940 - [Order Placed] TCS | sell | price: 3244.1 | quantity: 3 | 
+2021-04-13 00:17:54.978417 - [Order Placed] TCS | buy | price: 3274.65 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:17:56.498051 - [Order Placed] TCS | sell | price: 3272.95 | quantity: 3 | 
+2021-04-13 00:18:00.911100 - [Order Placed] TCS | buy | price: 3278.95 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:01.814886 - [Order Placed] TCS | sell | price: 3278.8 | quantity: 3 | 
+2021-04-13 00:18:13.310548 - [Order Placed] TCS | buy | price: 3285.8 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:13.763697 - [Order Placed] TCS | sell | price: 3287.7 | quantity: 3 | 
+2021-04-13 00:18:17.014073 - [Order Placed] TCS | buy | price: 3270.9 | quantity: 3 | Profit Booked
+2021-04-13 00:18:17.404715 - [Order Placed] TCS | sell | price: 3273.95 | quantity: 3 | 
+2021-04-13 00:18:22.545452 - [Order Placed] TCS | buy | price: 3256.05 | quantity: 3 | Profit Booked
+2021-04-13 00:18:23.402312 - [Order Placed] TCS | sell | price: 3266.05 | quantity: 3 | 
+2021-04-13 00:18:28.405646 - [Order Placed] TCS | buy | price: 3259.8 | quantity: 3 | Closed

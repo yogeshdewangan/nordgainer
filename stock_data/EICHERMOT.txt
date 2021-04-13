@@ -1,2 +1,21 @@
-2021-04-12 09:38:29.869852 - First 15 min high: 2510.0 | low: 2438.6 | open: 2490.0
-2021-04-12 09:39:55.412252 - [Order Placed] EICHERMOT | sell | price: 2400.25 | quantity: 3 | 
+2021-04-13 00:16:50.012058 - First 15 min high: 2510.0 | low: 2438.6 | open: 2490.0
+2021-04-13 00:17:37.081219 - [Order Placed] EICHERMOT | sell | price: 2436.7 | quantity: 3 | 
+2021-04-13 00:17:39.861108 - [Order Placed] EICHERMOT | buy | price: 2419.25 | quantity: 3 | Profit Booked
+2021-04-13 00:17:40.640973 - [Order Placed] EICHERMOT | sell | price: 2406.15 | quantity: 3 | 
+2021-04-13 00:17:53.794971 - [Order Placed] EICHERMOT | buy | price: 2419.55 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:17:55.531942 - [Order Placed] EICHERMOT | sell | price: 2421.25 | quantity: 3 | 
+2021-04-13 00:18:02.679413 - [Order Placed] EICHERMOT | buy | price: 2423.75 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:03.153066 - [Order Placed] EICHERMOT | sell | price: 2421.45 | quantity: 3 | 
+2021-04-13 00:18:07.193090 - [Order Placed] EICHERMOT | buy | price: 2424.05 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:07.646237 - [Order Placed] EICHERMOT | sell | price: 2421.35 | quantity: 3 | 
+2021-04-13 00:18:08.458777 - [Order Placed] EICHERMOT | buy | price: 2427.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:09.288122 - [Order Placed] EICHERMOT | sell | price: 2424.8 | quantity: 3 | 
+2021-04-13 00:18:12.794900 - [Order Placed] EICHERMOT | buy | price: 2427.4 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:12.966784 - [Order Placed] EICHERMOT | sell | price: 2425.55 | quantity: 3 | 
+2021-04-13 00:18:21.233031 - [Order Placed] EICHERMOT | buy | price: 2412.15 | quantity: 3 | Profit Booked
+2021-04-13 00:18:21.961277 - [Order Placed] EICHERMOT | sell | price: 2410.95 | quantity: 3 | 
+2021-04-13 00:18:22.842871 - [Order Placed] EICHERMOT | buy | price: 2417.25 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:23.809021 - [Order Placed] EICHERMOT | sell | price: 2415.85 | quantity: 3 | 
+2021-04-13 00:18:24.525374 - [Order Placed] EICHERMOT | buy | price: 2418.4 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:24.768111 - [Order Placed] EICHERMOT | sell | price: 2420.0 | quantity: 3 | 
+2021-04-13 00:18:26.412836 - [Order Placed] EICHERMOT | buy | price: 2423.95 | quantity: 3 | SL Hit | Current Price > Positive Range

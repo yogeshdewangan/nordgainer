@@ -1,2 +1,21 @@
-2021-04-12 09:39:36.248848 - First 15 min high: 905.4 | low: 891.35 | open: 900.65
-2021-04-12 09:39:55.521635 - [Order Placed] SBILIFE | sell | price: 879.5 | quantity: 3 | 
+2021-04-13 00:17:22.584095 - First 15 min high: 905.4 | low: 891.35 | open: 900.65
+2021-04-13 00:17:38.644139 - [Order Placed] SBILIFE | sell | price: 891.3 | quantity: 3 | 
+2021-04-13 00:17:39.050408 - [Order Placed] SBILIFE | buy | price: 883.75 | quantity: 3 | Profit Booked
+2021-04-13 00:17:39.277519 - [Order Placed] SBILIFE | sell | price: 885.1 | quantity: 3 | 
+2021-04-13 00:17:42.675671 - [Order Placed] SBILIFE | buy | price: 879.8 | quantity: 3 | Profit Booked
+2021-04-13 00:17:43.038128 - [Order Placed] SBILIFE | sell | price: 881.9 | quantity: 3 | 
+2021-04-13 00:17:44.278063 - [Order Placed] SBILIFE | buy | price: 877.45 | quantity: 3 | Profit Booked
+2021-04-13 00:17:44.449943 - [Order Placed] SBILIFE | sell | price: 878.1 | quantity: 3 | 
+2021-04-13 00:18:16.045060 - [Order Placed] SBILIFE | buy | price: 873.35 | quantity: 3 | Profit Booked
+2021-04-13 00:18:16.389040 - [Order Placed] SBILIFE | sell | price: 873.6 | quantity: 3 | 
+2021-04-13 00:18:17.529725 - [Order Placed] SBILIFE | buy | price: 869.2 | quantity: 3 | Profit Booked
+2021-04-13 00:18:17.764111 - [Order Placed] SBILIFE | sell | price: 868.95 | quantity: 3 | 
+2021-04-13 00:18:18.045376 - [Order Placed] SBILIFE | buy | price: 870.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:18.436018 - [Order Placed] SBILIFE | sell | price: 869.0 | quantity: 3 | 
+2021-04-13 00:18:18.732906 - [Order Placed] SBILIFE | buy | price: 870.55 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:18.857911 - [Order Placed] SBILIFE | sell | price: 870.55 | quantity: 3 | 
+2021-04-13 00:18:23.183549 - [Order Placed] SBILIFE | buy | price: 872.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:24.212855 - [Order Placed] SBILIFE | sell | price: 871.25 | quantity: 3 | 
+2021-04-13 00:18:24.985371 - [Order Placed] SBILIFE | buy | price: 872.35 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:25.662801 - [Order Placed] SBILIFE | sell | price: 872.25 | quantity: 3 | 
+2021-04-13 00:18:28.061880 - [Order Placed] SBILIFE | buy | price: 872.6 | quantity: 3 | Closed

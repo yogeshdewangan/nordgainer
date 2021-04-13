@@ -1,1 +1,23 @@
-2021-04-12 09:39:29.253950 - First 15 min high: 102.25 | low: 100.7 | open: 100.85
+2021-04-13 00:17:18.348324 - First 15 min high: 102.25 | low: 100.7 | open: 100.85
+2021-04-13 00:17:38.588102 - [Order Placed] ONGC | sell | price: 100.5 | quantity: 3 | 
+2021-04-13 00:17:40.874806 - [Order Placed] ONGC | buy | price: 100.0 | quantity: 3 | Profit Booked
+2021-04-13 00:17:41.472482 - [Order Placed] ONGC | sell | price: 100.35 | quantity: 3 | 
+2021-04-13 00:17:45.164858 - [Order Placed] ONGC | buy | price: 99.85 | quantity: 3 | Profit Booked
+2021-04-13 00:17:45.242986 - [Order Placed] ONGC | sell | price: 99.8 | quantity: 3 | 
+2021-04-13 00:17:47.769680 - [Order Placed] ONGC | buy | price: 99.3 | quantity: 3 | Profit Booked
+2021-04-13 00:17:47.942070 - [Order Placed] ONGC | sell | price: 99.45 | quantity: 3 | 
+2021-04-13 00:17:49.173938 - [Order Placed] ONGC | buy | price: 98.95 | quantity: 3 | Profit Booked
+2021-04-13 00:17:49.408328 - [Order Placed] ONGC | sell | price: 99.25 | quantity: 3 | 
+2021-04-13 00:17:50.575752 - [Order Placed] ONGC | buy | price: 98.75 | quantity: 3 | Profit Booked
+2021-04-13 00:17:50.966032 - [Order Placed] ONGC | sell | price: 98.8 | quantity: 3 | 
+2021-04-13 00:17:52.589217 - [Order Placed] ONGC | buy | price: 98.3 | quantity: 3 | Profit Booked
+2021-04-13 00:17:52.651722 - [Order Placed] ONGC | sell | price: 98.25 | quantity: 3 | 
+2021-04-13 00:17:52.839231 - [Order Placed] ONGC | buy | price: 97.65 | quantity: 3 | Profit Booked
+2021-04-13 00:17:52.964235 - [Order Placed] ONGC | sell | price: 97.65 | quantity: 3 | 
+2021-04-13 00:17:54.565143 - [Order Placed] ONGC | buy | price: 98.05 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:17:56.154284 - [Order Placed] ONGC | sell | price: 98.1 | quantity: 3 | 
+2021-04-13 00:18:00.029607 - [Order Placed] ONGC | buy | price: 98.3 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:01.596125 - [Order Placed] ONGC | sell | price: 98.2 | quantity: 3 | 
+2021-04-13 00:18:10.841677 - [Order Placed] ONGC | buy | price: 98.4 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:11.138569 - [Order Placed] ONGC | sell | price: 98.25 | quantity: 3 | 
+2021-04-13 00:18:27.899098 - [Order Placed] ONGC | buy | price: 98.05 | quantity: 3 | Closed

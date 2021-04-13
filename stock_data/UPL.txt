@@ -1,2 +1,43 @@
-2021-04-12 09:39:52.654770 - First 15 min high: 627.65 | low: 614.5 | open: 625.0
-2021-04-12 09:39:55.568509 - [Order Placed] UPL | sell | price: 604.1 | quantity: 3 | 
+2021-04-13 00:17:34.657104 - First 15 min high: 627.65 | low: 614.5 | open: 625.0
+2021-04-13 00:17:37.950866 - [Order Placed] UPL | sell | price: 613.5 | quantity: 3 | 
+2021-04-13 00:17:38.186111 - [Order Placed] UPL | buy | price: 609.65 | quantity: 3 | Profit Booked
+2021-04-13 00:17:38.700175 - [Order Placed] UPL | sell | price: 605.65 | quantity: 3 | 
+2021-04-13 00:17:44.778084 - [Order Placed] UPL | buy | price: 602.5 | quantity: 3 | Profit Booked
+2021-04-13 00:17:44.848608 - [Order Placed] UPL | sell | price: 602.6 | quantity: 3 | 
+2021-04-13 00:17:45.748500 - [Order Placed] UPL | buy | price: 599.0 | quantity: 3 | Profit Booked
+2021-04-13 00:17:46.046947 - [Order Placed] UPL | sell | price: 598.95 | quantity: 3 | 
+2021-04-13 00:17:47.826066 - [Order Placed] UPL | buy | price: 595.5 | quantity: 3 | Profit Booked
+2021-04-13 00:17:47.995461 - [Order Placed] UPL | sell | price: 595.5 | quantity: 3 | 
+2021-04-13 00:17:49.548957 - [Order Placed] UPL | buy | price: 592.4 | quantity: 3 | Profit Booked
+2021-04-13 00:17:49.736995 - [Order Placed] UPL | sell | price: 591.35 | quantity: 3 | 
+2021-04-13 00:17:51.432211 - [Order Placed] UPL | buy | price: 587.75 | quantity: 3 | Profit Booked
+2021-04-13 00:17:51.666597 - [Order Placed] UPL | sell | price: 586.3 | quantity: 3 | 
+2021-04-13 00:17:51.979813 - [Order Placed] UPL | buy | price: 582.15 | quantity: 3 | Profit Booked
+2021-04-13 00:17:52.214198 - [Order Placed] UPL | sell | price: 583.05 | quantity: 3 | 
+2021-04-13 00:17:55.141298 - [Order Placed] UPL | buy | price: 594.3 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:17:56.671131 - [Order Placed] UPL | sell | price: 595.9 | quantity: 3 | 
+2021-04-13 00:17:57.834148 - [Order Placed] UPL | buy | price: 598.3 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:00.980638 - [Order Placed] UPL | sell | price: 598.35 | quantity: 3 | 
+2021-04-13 00:18:02.974660 - [Order Placed] UPL | buy | price: 599.6 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:03.278076 - [Order Placed] UPL | sell | price: 599.45 | quantity: 3 | 
+2021-04-13 00:18:04.005391 - [Order Placed] UPL | buy | price: 600.35 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:04.169666 - [Order Placed] UPL | sell | price: 599.45 | quantity: 3 | 
+2021-04-13 00:18:04.685319 - [Order Placed] UPL | buy | price: 600.7 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:05.033841 - [Order Placed] UPL | sell | price: 601.5 | quantity: 3 | 
+2021-04-13 00:18:05.618012 - [Order Placed] UPL | buy | price: 598.45 | quantity: 3 | Profit Booked
+2021-04-13 00:18:05.851800 - [Order Placed] UPL | sell | price: 598.9 | quantity: 3 | 
+2021-04-13 00:18:06.318048 - [Order Placed] UPL | buy | price: 599.6 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:06.614941 - [Order Placed] UPL | sell | price: 598.8 | quantity: 3 | 
+2021-04-13 00:18:07.583735 - [Order Placed] UPL | buy | price: 599.95 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:07.880627 - [Order Placed] UPL | sell | price: 599.55 | quantity: 3 | 
+2021-04-13 00:18:08.224391 - [Order Placed] UPL | buy | price: 601.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:09.053736 - [Order Placed] UPL | sell | price: 601.9 | quantity: 3 | 
+2021-04-13 00:18:12.857401 - [Order Placed] UPL | buy | price: 598.85 | quantity: 3 | Profit Booked
+2021-04-13 00:18:13.029288 - [Order Placed] UPL | sell | price: 598.9 | quantity: 3 | 
+2021-04-13 00:18:13.373053 - [Order Placed] UPL | buy | price: 599.8 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:13.826198 - [Order Placed] UPL | sell | price: 599.3 | quantity: 3 | 
+2021-04-13 00:18:14.951253 - [Order Placed] UPL | buy | price: 596.3 | quantity: 3 | Profit Booked
+2021-04-13 00:18:15.185641 - [Order Placed] UPL | sell | price: 595.9 | quantity: 3 | 
+2021-04-13 00:18:22.608821 - [Order Placed] UPL | buy | price: 592.65 | quantity: 3 | Profit Booked
+2021-04-13 00:18:23.527314 - [Order Placed] UPL | sell | price: 595.25 | quantity: 3 | 
+2021-04-13 00:18:26.700614 - [Order Placed] UPL | buy | price: 592.15 | quantity: 3 | Profit Booked

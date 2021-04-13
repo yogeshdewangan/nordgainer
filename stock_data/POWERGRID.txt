@@ -1,2 +1,21 @@
-2021-04-12 09:39:31.964228 - First 15 min high: 206.65 | low: 203.35 | open: 206.65
-2021-04-12 09:39:55.506006 - [Order Placed] POWERGRID | sell | price: 201.3 | quantity: 3 | 
+2021-04-13 00:17:19.866239 - First 15 min high: 206.65 | low: 203.35 | open: 206.65
+2021-04-13 00:17:37.356399 - [Order Placed] POWERGRID | sell | price: 202.6 | quantity: 3 | 
+2021-04-13 00:17:40.944803 - [Order Placed] POWERGRID | buy | price: 201.15 | quantity: 3 | Profit Booked
+2021-04-13 00:17:41.519360 - [Order Placed] POWERGRID | sell | price: 201.0 | quantity: 3 | 
+2021-04-13 00:17:46.617995 - [Order Placed] POWERGRID | buy | price: 199.7 | quantity: 3 | Profit Booked
+2021-04-13 00:17:46.742998 - [Order Placed] POWERGRID | sell | price: 200.0 | quantity: 3 | 
+2021-04-13 00:17:49.111435 - [Order Placed] POWERGRID | buy | price: 198.85 | quantity: 3 | Profit Booked
+2021-04-13 00:17:49.236443 - [Order Placed] POWERGRID | sell | price: 199.2 | quantity: 3 | 
+2021-04-13 00:17:54.612017 - [Order Placed] POWERGRID | buy | price: 200.7 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:17:56.201164 - [Order Placed] POWERGRID | sell | price: 200.55 | quantity: 3 | 
+2021-04-13 00:18:00.097627 - [Order Placed] POWERGRID | buy | price: 201.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:01.643006 - [Order Placed] POWERGRID | sell | price: 200.8 | quantity: 3 | 
+2021-04-13 00:18:05.680514 - [Order Placed] POWERGRID | buy | price: 201.05 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:05.967260 - [Order Placed] POWERGRID | sell | price: 201.55 | quantity: 3 | 
+2021-04-13 00:18:07.349349 - [Order Placed] POWERGRID | buy | price: 200.55 | quantity: 3 | Profit Booked
+2021-04-13 00:18:07.755619 - [Order Placed] POWERGRID | sell | price: 200.5 | quantity: 3 | 
+2021-04-13 00:18:09.966639 - [Order Placed] POWERGRID | buy | price: 201.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:10.091641 - [Order Placed] POWERGRID | sell | price: 200.9 | quantity: 3 | 
+2021-04-13 00:18:11.419831 - [Order Placed] POWERGRID | buy | price: 201.15 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:11.872980 - [Order Placed] POWERGRID | sell | price: 201.0 | quantity: 3 | 
+2021-04-13 00:18:27.945984 - [Order Placed] POWERGRID | buy | price: 201.0 | quantity: 3 | Closed

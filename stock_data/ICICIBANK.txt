@@ -1,2 +1,17 @@
-2021-04-12 09:38:56.592954 - First 15 min high: 551.95 | low: 545.05 | open: 551.4
-2021-04-12 09:39:55.459130 - [Order Placed] ICICIBANK | sell | price: 542.9 | quantity: 3 | 
+2021-04-13 00:17:04.517476 - First 15 min high: 551.95 | low: 545.05 | open: 551.4
+2021-04-13 00:17:39.712017 - [Order Placed] ICICIBANK | sell | price: 544.85 | quantity: 3 | 
+2021-04-13 00:17:41.409983 - [Order Placed] ICICIBANK | buy | price: 541.05 | quantity: 3 | Profit Booked
+2021-04-13 00:17:41.972509 - [Order Placed] ICICIBANK | sell | price: 540.35 | quantity: 3 | 
+2021-04-13 00:17:49.790419 - [Order Placed] ICICIBANK | buy | price: 537.45 | quantity: 3 | Profit Booked
+2021-04-13 00:17:50.022337 - [Order Placed] ICICIBANK | sell | price: 537.55 | quantity: 3 | 
+2021-04-13 00:18:14.169965 - [Order Placed] ICICIBANK | buy | price: 533.5 | quantity: 3 | Profit Booked
+2021-04-13 00:18:14.669989 - [Order Placed] ICICIBANK | sell | price: 532.3 | quantity: 3 | 
+2021-04-13 00:18:16.904691 - [Order Placed] ICICIBANK | buy | price: 533.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:17.232832 - [Order Placed] ICICIBANK | sell | price: 533.25 | quantity: 3 | 
+2021-04-13 00:18:18.389140 - [Order Placed] ICICIBANK | buy | price: 533.85 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:18.670403 - [Order Placed] ICICIBANK | sell | price: 534.25 | quantity: 3 | 
+2021-04-13 00:18:23.011659 - [Order Placed] ICICIBANK | buy | price: 535.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:24.040973 - [Order Placed] ICICIBANK | sell | price: 535.75 | quantity: 3 | 
+2021-04-13 00:18:24.884540 - [Order Placed] ICICIBANK | buy | price: 537.1 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:25.490918 - [Order Placed] ICICIBANK | sell | price: 537.2 | quantity: 3 | 
+2021-04-13 00:18:27.345225 - [Order Placed] ICICIBANK | buy | price: 538.1 | quantity: 3 | Closed

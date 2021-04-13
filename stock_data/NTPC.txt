@@ -1,2 +1,17 @@
-2021-04-12 09:39:27.024774 - First 15 min high: 101.5 | low: 99.95 | open: 101.5
-2021-04-12 09:39:55.490381 - [Order Placed] NTPC | sell | price: 99.5 | quantity: 3 | 
+2021-04-13 00:17:17.203929 - First 15 min high: 101.5 | low: 99.95 | open: 101.5
+2021-04-13 00:17:38.069241 - [Order Placed] NTPC | sell | price: 99.9 | quantity: 3 | 
+2021-04-13 00:17:40.134359 - [Order Placed] NTPC | buy | price: 99.4 | quantity: 3 | Profit Booked
+2021-04-13 00:17:40.827925 - [Order Placed] NTPC | sell | price: 99.0 | quantity: 3 | 
+2021-04-13 00:17:48.611414 - [Order Placed] NTPC | buy | price: 98.5 | quantity: 3 | Profit Booked
+2021-04-13 00:17:48.673915 - [Order Placed] NTPC | sell | price: 98.55 | quantity: 3 | 
+2021-04-13 00:18:12.404254 - [Order Placed] NTPC | buy | price: 98.75 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:12.576141 - [Order Placed] NTPC | sell | price: 98.75 | quantity: 3 | 
+2021-04-13 00:18:21.420538 - [Order Placed] NTPC | buy | price: 98.25 | quantity: 3 | Profit Booked
+2021-04-13 00:18:22.076681 - [Order Placed] NTPC | sell | price: 98.3 | quantity: 3 | 
+2021-04-13 00:18:23.074171 - [Order Placed] NTPC | buy | price: 98.55 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:24.103477 - [Order Placed] NTPC | sell | price: 98.6 | quantity: 3 | 
+2021-04-13 00:18:25.600300 - [Order Placed] NTPC | buy | price: 98.85 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:26.053443 - [Order Placed] NTPC | sell | price: 98.8 | quantity: 3 | 
+2021-04-13 00:18:26.225327 - [Order Placed] NTPC | buy | price: 98.95 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:26.522217 - [Order Placed] NTPC | sell | price: 99.0 | quantity: 3 | 
+2021-04-13 00:18:27.830088 - [Order Placed] NTPC | buy | price: 99.0 | quantity: 3 | Closed

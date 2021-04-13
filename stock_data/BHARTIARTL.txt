@@ -1,2 +1,27 @@
-2021-04-12 09:38:17.886863 - First 15 min high: 538.85 | low: 533.35 | open: 537.55
-2021-04-12 09:39:55.396626 - [Order Placed] BHARTIARTL | sell | price: 530.7 | quantity: 3 | 
+2021-04-13 00:16:44.436269 - First 15 min high: 538.85 | low: 533.35 | open: 537.55
+2021-04-13 00:17:39.402525 - [Order Placed] BHARTIARTL | sell | price: 532.6 | quantity: 3 | 
+2021-04-13 00:17:40.515967 - [Order Placed] BHARTIARTL | buy | price: 529.5 | quantity: 3 | Profit Booked
+2021-04-13 00:17:41.300601 - [Order Placed] BHARTIARTL | sell | price: 528.55 | quantity: 3 | 
+2021-04-13 00:17:47.410281 - [Order Placed] BHARTIARTL | buy | price: 525.9 | quantity: 3 | Profit Booked
+2021-04-13 00:17:47.535286 - [Order Placed] BHARTIARTL | sell | price: 526.05 | quantity: 3 | 
+2021-04-13 00:17:50.748173 - [Order Placed] BHARTIARTL | buy | price: 522.7 | quantity: 3 | Profit Booked
+2021-04-13 00:17:51.150946 - [Order Placed] BHARTIARTL | sell | price: 522.6 | quantity: 3 | 
+2021-04-13 00:17:52.901736 - [Order Placed] BHARTIARTL | buy | price: 520.0 | quantity: 3 | Profit Booked
+2021-04-13 00:17:53.026741 - [Order Placed] BHARTIARTL | sell | price: 520.0 | quantity: 3 | 
+2021-04-13 00:17:53.558014 - [Order Placed] BHARTIARTL | buy | price: 521.0 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:17:55.297555 - [Order Placed] BHARTIARTL | sell | price: 521.1 | quantity: 3 | 
+2021-04-13 00:17:57.950047 - [Order Placed] BHARTIARTL | buy | price: 522.25 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:01.142979 - [Order Placed] BHARTIARTL | sell | price: 521.85 | quantity: 3 | 
+2021-04-13 00:18:01.986771 - [Order Placed] BHARTIARTL | buy | price: 522.5 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:02.221158 - [Order Placed] BHARTIARTL | sell | price: 521.75 | quantity: 3 | 
+2021-04-13 00:18:02.632541 - [Order Placed] BHARTIARTL | buy | price: 522.7 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:03.090562 - [Order Placed] BHARTIARTL | sell | price: 522.15 | quantity: 3 | 
+2021-04-13 00:18:11.247947 - [Order Placed] BHARTIARTL | buy | price: 523.1 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:11.591716 - [Order Placed] BHARTIARTL | sell | price: 523.1 | quantity: 3 | 
+2021-04-13 00:18:15.545032 - [Order Placed] BHARTIARTL | buy | price: 520.5 | quantity: 3 | Profit Booked
+2021-04-13 00:18:15.826298 - [Order Placed] BHARTIARTL | sell | price: 520.95 | quantity: 3 | 
+2021-04-13 00:18:18.217258 - [Order Placed] BHARTIARTL | buy | price: 521.55 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:18.623524 - [Order Placed] BHARTIARTL | sell | price: 521.05 | quantity: 3 | 
+2021-04-13 00:18:22.725927 - [Order Placed] BHARTIARTL | buy | price: 522.1 | quantity: 3 | SL Hit | Current Price > Positive Range
+2021-04-13 00:18:23.708211 - [Order Placed] BHARTIARTL | sell | price: 521.45 | quantity: 3 | 
+2021-04-13 00:18:26.816519 - [Order Placed] BHARTIARTL | buy | price: 521.4 | quantity: 3 | Closed
