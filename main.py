@@ -171,6 +171,7 @@ def check_time():
         elif current_time > stop_time:
             return "close"
     else:
+        time.sleep(30)
         return "wait"
 
 
