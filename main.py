@@ -217,12 +217,13 @@ if __name__ == '__main__':
                 if stock.symbol not in stop_list:
                     if stock.first15_high > 0 and stock.first15_low > 0:
                         try:
-                            # hour = datetime.datetime.now().hour
-                            # min = datetime.datetime.now().time().min
-                            # if hour==13:
-                            #     conf_reader.props["stop_loss_per"] = 1
-                            #     print("Changed stop loss to 0.5 at 13.01PM")
-
+                            hour = datetime.datetime.now().hour
+                            if hour==14:
+                                try:
+                                    conf_reader.props["stop_loss_per"] = 2
+                                    print_and_log("Changed stop loss to 2 at 14.00PM")
+                                except:
+                                    pass
 
                             if back_test:
                                 current_price = stock.price_list[stock.count]
@@ -256,7 +257,7 @@ if __name__ == '__main__':
                                 positive_range, negative_range = calculate_percentage(stock.ltp, conf_reader.props["stop_loss_per"])
 
                                 if stock.buy_or_sell == Type.Buy:
-                                    if current_price < negative_range:
+                                    if current_price < negative_range or current_price < stock.first15_low:
                                         ltp = stock.ltp
                                         print_details(stock, current_price, positive_range, negative_range, "Checking stop loss")
                                         placed = do_trade(stock, current_price, Type.Sell, stock.quantity * 2, "SL Hit | Current Price < Negative Range")
@@ -266,7 +267,7 @@ if __name__ == '__main__':
                                             stock.buy_or_sell = Type.Sell
 
                                 if stock.buy_or_sell == Type.Sell:
-                                    if current_price > positive_range:
+                                    if current_price > positive_range or current_price> stock.first15_high:
                                         ltp = stock.ltp
                                         print_details(stock, current_price, positive_range, negative_range, "Checking stop loss")
                                         placed = do_trade(stock, current_price, Type.Buy, stock.quantity * 2, "SL Hit | Current Price > Positive Range")

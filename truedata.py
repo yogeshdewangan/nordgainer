@@ -69,7 +69,7 @@ def get_price_list_for_back_test(symbol):
     month = int(temp_date[1])
     year = int(temp_date[2])
     price_list = []
-    hist_data_1 = td_app.get_historic_data(symbol, bar_size="1 min", start_time=datetime(year, month, day, 9, 31), end_time=datetime(year, month, day, 15, 10))  # remove duration for current date
+    hist_data_1 = td_app.get_historic_data(symbol, bar_size="1 min", start_time=datetime(year, month, day, 9, 31), end_time=datetime(year, month, day, 15, 00))  # remove duration for current date
     for i in hist_data_1:
         price_list.append(i["c"])
     return price_list
