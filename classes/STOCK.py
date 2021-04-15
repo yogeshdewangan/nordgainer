@@ -6,7 +6,7 @@ class STOCK:
     quantity = 0
     at = 0,
     buy_or_sell = "buy"
-    stop_loss = 0
+    stop_loss_per = 0
     req_code = 0
     purchased = False
     total_quantity = 0
@@ -19,6 +19,7 @@ class STOCK:
     profit_booked = False
     price_list =[]
     current_price = 0
+    profit_booked_count = 0
 
 
 class Type:
