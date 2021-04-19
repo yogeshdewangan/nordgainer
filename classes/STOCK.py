@@ -16,6 +16,8 @@ class STOCK:
     open =0
     first15_high = 0
     first15_low = 0
+    first15_open = 0
+    first15_close = 0
     profit_booked = False
     price_list =[]
     current_price = 0
