@@ -44,10 +44,10 @@ def get_historic_data(symbol):
     year = datetime.now().year
 
     back_test = conf_reader.props["back_test"]
-    if back_test.lower()== 'true':
+    if back_test.lower() == 'true':
         back_test = True
     else:
-        back_test= False
+        back_test = False
     if back_test:
         back_test_date = conf_reader.props["back_test_date"]
         temp_date = back_test_date.split('/')
@@ -63,14 +63,38 @@ def get_historic_data(symbol):
     return high, low, open, close
 
 
-def get_price_list_for_back_test(symbol):
+def get_historic_data_for_backtest(symbol, dt=None):
     back_test_date = conf_reader.props["back_test_date"]
     temp_date = back_test_date.split('/')
     day = int(temp_date[0])
     month = int(temp_date[1])
     year = int(temp_date[2])
+
+    if not dt is None:
+        day = int(dt.day)
+        month = int(dt.month)
+        year = int(dt.year)
+
+    hist_data_1 = td_app.get_historic_data(symbol, bar_size="15 min", start_time=datetime(year, month, day, 9, 15), end_time=datetime(year, month, day, 9, 30))  # remove duration for current date
+    high = hist_data_1[0]["h"]
+    low = hist_data_1[0]["l"]
+    open = hist_data_1[0]["o"]
+    close = hist_data_1[0]["c"]
+    return high, low, open, close
+
+
+def get_price_list_for_back_test(symbol, dt=None):
+    back_test_date = conf_reader.props["back_test_date"]
+    temp_date = back_test_date.split('/')
+    day = int(temp_date[0])
+    month = int(temp_date[1])
+    year = int(temp_date[2])
+    if not dt is None:
+        day = int(dt.day)
+        month = int(dt.month)
+        year = int(dt.year)
     price_list = []
-    hist_data_1 = td_app.get_historic_data(symbol, bar_size="10 min", start_time=datetime(year, month, day, 9, 31), end_time=datetime(year, month, day, 15, 00))  # remove duration for current date
+    hist_data_1 = td_app.get_historic_data(symbol, bar_size="1 min", start_time=datetime(year, month, day, 9, 31), end_time=datetime(year, month, day, 15, 00))  # remove duration for current date
     for i in hist_data_1:
         price_list.append(i["c"])
     return price_list

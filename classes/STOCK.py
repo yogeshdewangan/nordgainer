@@ -22,6 +22,7 @@ class STOCK:
     price_list =[]
     current_price = 0
     profit_booked_count = 0
+    stop_loss_count =0
 
 
 class Type:

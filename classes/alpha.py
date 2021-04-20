@@ -30,12 +30,19 @@ except Exception as e:
     print('Exception occurred :: {}'.format(e))
     access_token = None
 # sas = AlphaTrade(login_id=login_id, password=password, twofa=twofa)
+try:
+    sas = AlphaTrade(login_id=login_id, password=password,
+                     twofa=twofa, access_token=access_token, master_contracts_to_download=['NSE'])
 
-sas = AlphaTrade(login_id=login_id, password=password,
-                 twofa=twofa, access_token=access_token, master_contracts_to_download=['NSE'])
-
-profile = sas.get_profile()
-print(profile)
+    profile = sas.get_profile()
+    print(profile)
+except:
+    if conf_reader.props["back_test"].lower() == 'true':
+        pass
+    else:
+        import sys
+        sys.exit()
+        print("Not able to connect to SAS Online")
 # netwise = sas.get_netwise_positions()
 
 def get_balace():
