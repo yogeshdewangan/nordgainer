@@ -1,4 +1,6 @@
 ===================2021-03-25 00:00:00========================
 Max Profit: 3.45Total stop loss hit : 0Total profit booked count  : 1===================2021-03-25 00:00:00========================
 Max Profit: 3.45Total stop loss hit : 0Total profit booked count  : 1===================2021-03-25 00:00:00========================
-Max Profit: 3.45Total stop loss hit : 0Total profit booked count  : 1
+Max Profit: 3.45Total stop loss hit : 0Total profit booked count  : 1===================2021-03-25 00:00:00========================
+Max Profit: 340.8Total stop loss hit : 1Total profit booked count  : 68===================2021-03-25 00:00:00========================
+Max Profit: 37.7Total stop loss hit : 62Total profit booked count  : 41

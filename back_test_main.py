@@ -109,7 +109,7 @@ def do_trade(stock, current_pri, buy_or_sell, quantity, message=""):
     return False
 
 
-def close_all_positions(profit,bt_dt):
+def close_all_positions(profit,bt_dt=None):
     # square off all positions
     for stock in conf_reader.MYDEF:
         if stock.symbol not in stop_list:
@@ -167,7 +167,7 @@ def close_all_positions(profit,bt_dt):
     # sys.exit()
 
 
-def check_15_min_candle(dt):
+def check_15_min_candle(dt=None):
     for stock in conf_reader.MYDEF:
         try:
             high, low, open, close = truedata.get_historic_data_for_backtest(stock.symbol,dt=dt)
@@ -261,177 +261,157 @@ for dt in daterange(bt_start_date, bt_end_date):
 if __name__ == '__main__':
     print("******** Broker : " + broker_name + " *********")
 
-    for bt_dt in bt_date_list:
+    # for bt_dt in bt_date_list:
 
-        a=0
+    first_time = False
+    while True:
 
-        first_time = False
-        while True:
+        stop_list = get_stop_list()
 
-            stop_list = get_stop_list()
+        what_next = check_time()
+        print("What Next: " + str(what_next))
 
-            # what_next = check_time()
-            # print("What Next: " + str(what_next))
+        if back_test:
+            what_next = "run"
 
-            if back_test:
-                what_next = "run"
+        if what_next == "run":
 
-            if what_next == "run":
+            if not first_time:
+                check_15_min_candle()
+                first_time = True
 
-                if not first_time:
-                    check_15_min_candle(bt_dt)
-                    first_time = True
+            for stock in conf_reader.MYDEF:
+                if stock.symbol not in stop_list:
+                    if stock.first15_high > 0 and stock.first15_low > 0:
+                        try:
 
-                for stock in conf_reader.MYDEF:
-                    if stock.symbol not in stop_list:
-                        if stock.first15_high > 0 and stock.first15_low > 0:
-                            try:
+                            if back_test:
+                                current_price = stock.price_list[stock.count]
+                                stock.count += 1
 
-                                if back_test:
-                                    current_price = stock.price_list[stock.count]
-                                    stock.count += 1
+                                if stock.count > len(stock.price_list) - 2:
+                                    close_all_positions(profit)
+                                    sys.exit()
+                            else:
+                                current_price = truedata.get_current_data(stock.req_code)
+                            stock.current_price = current_price
 
-                                    if stock.count > len(stock.price_list) - 2:
-                                        close_all_positions(profit,bt_dt)
-                                        # sys.exit()
-                                else:
-                                    current_price = truedata.get_current_data(stock.req_code)
-                                stock.current_price = current_price
+                            # First time purchase
+                            if not stock.purchased and not stock.stop_loss_hit:
+                                if stock.first15_high <= current_price:
+                                    placed = do_trade(stock, current_price, Type.Sell, stock.quantity, "First Order")
+                                    if placed:
+                                        stock.buy_or_sell = Type.Sell
+                                        stock.purchased = True
+                                        stock.total_quantity += stock.quantity
 
-                                # First time purchase
-                                if not stock.purchased and not stock.stop_loss_hit:
-                                    if stock.first15_high <= current_price:
-                                        placed = do_trade(stock, current_price, Type.Sell, stock.quantity, "First Order")
+                                if stock.first15_low >= current_price:
+                                    placed = do_trade(stock, current_price, Type.Buy, stock.quantity, "First Order")
+                                    if placed:
+                                        stock.buy_or_sell = Type.Buy
+                                        stock.purchased = True
+                                        stock.total_quantity += stock.quantity
+
+                            # Check stop loss
+                            if stock.purchased and not stock.stop_loss_hit:
+                                positive_range, negative_range = calculate_percentage(stock.ltp, stop_loss_per)
+
+                                if stock.buy_or_sell == Type.Buy:
+                                    if current_price < negative_range:
+                                        ltp = stock.ltp
+
+                                        placed = do_trade(stock, current_price, Type.Sell, stock.quantity * 2, "SL Hit | Current Price < Negative Range")
                                         if placed:
+                                            profit += (current_price - ltp) * stock.quantity
+                                            stock.stop_loss_count += 1
                                             stock.buy_or_sell = Type.Sell
                                             stock.purchased = True
+                                            total_stop_loss_count += 1
+                                            stock.total_quantity = stock.quantity
 
-                                    if stock.first15_low >= current_price:
-                                        placed = do_trade(stock, current_price, Type.Buy, stock.quantity, "First Order")
+                                if stock.buy_or_sell == Type.Sell:
+                                    if current_price > positive_range:
+                                        ltp = stock.ltp
+
+                                        placed = do_trade(stock, current_price, Type.Buy, stock.quantity * 2, "SL Hit | Current Price > Positive Range")
                                         if placed:
+                                            profit += (ltp - current_price) * stock.quantity
+                                            stock.stop_loss_count += 1
                                             stock.buy_or_sell = Type.Buy
                                             stock.purchased = True
+                                            total_stop_loss_count += 1
+                                            stock.total_quantity = stock.quantity
 
-                                # Check stop loss
-                                if stock.purchased and not stock.stop_loss_hit:
-                                    positive_range, negative_range = calculate_percentage(stock.ltp, stop_loss_per)
+                            # Book profit
+                            if stock.purchased:
+                                positive_range, negative_range = calculate_percentage(stock.ltp, profit_per)
 
-                                    if stock.buy_or_sell == Type.Buy:
-                                        if current_price < negative_range:
-                                            ltp = stock.ltp
-                                            # print_details(stock, current_price, positive_range, negative_range, "Checking stop loss")
-                                            if stock.stop_loss_count >= max_stop_loss_count:
-                                                placed = do_trade(stock, current_price, Type.Sell, stock.quantity, "SL Hit | Current Price < Negative Range | Closed")
-                                                if placed:
-                                                    profit += (current_price - ltp) * stock.quantity
-                                                    stock.stop_loss_count += 1
-                                                    stock.stop_loss_hit = True
-                                                    stock.buy_or_sell = Type.Sell
-                                                    stock.purchased = False
-                                                    total_stop_loss_count += 1
-                                            else:
-                                                placed = do_trade(stock, current_price, Type.Sell, stock.quantity * 2, "SL Hit | Current Price < Negative Range")
-                                                if placed:
-                                                    profit += (current_price - ltp) * stock.quantity
-                                                    stock.stop_loss_count += 1
-                                                    stock.buy_or_sell = Type.Sell
-                                                    stock.purchased = True
-                                                    total_stop_loss_count += 1
+                                if stock.buy_or_sell == Type.Buy:
+                                    if current_price >= positive_range:
+                                        ltp = stock.ltp
+                                        placed = do_trade(stock, current_price, Type.Sell, stock.quantity , "Profit booked")
+                                        if placed:
+                                            profit += (current_price - ltp) * stock.quantity
+                                            stock.purchased = False
+                                            stock.buy_or_sell = Type.Sell
+                                            total_profit_booked_count += 1
+                                            stock.total_quantity = 0
 
-                                    if stock.buy_or_sell == Type.Sell:
-                                        if current_price > positive_range:
-                                            ltp = stock.ltp
-                                            # print_details(stock, current_price, positive_range, negative_range, "Checking stop loss")
-                                            if stock.stop_loss_count >= max_stop_loss_count:
-                                                placed = do_trade(stock, current_price, Type.Buy, stock.quantity, "SL Hit | Current Price > Positive Range | Closed")
-                                                if placed:
-                                                    profit += (ltp - current_price) * stock.quantity
-                                                    stock.stop_loss_count += 1
-                                                    stock.stop_loss_hit = True
-                                                    stock.buy_or_sell = Type.Buy
-                                                    stock.purchased = False
-                                                    total_stop_loss_count += 1
-                                            else:
-                                                placed = do_trade(stock, current_price, Type.Buy, stock.quantity * 2, "SL Hit | Current Price > Positive Range")
-                                                if placed:
-                                                    profit += (ltp - current_price) * stock.quantity
-                                                    stock.stop_loss_count += 1
-                                                    stock.buy_or_sell = Type.Buy
-                                                    stock.purchased = True
-                                                    total_stop_loss_count += 1
-
-                                # Book profit
-                                if stock.purchased:
-                                    positive_range, negative_range = calculate_percentage(stock.ltp, profit_per)
-
-                                    if stock.buy_or_sell == Type.Buy:
-                                        if current_price >= positive_range:
-                                            ltp = stock.ltp
-                                            # print_details(stock, current_price, positive_range, negative_range, "Profit booked")
-                                            placed = do_trade(stock, current_price, Type.Sell, stock.quantity * 2, "Profit booked")
-                                            if placed:
-                                                profit += (current_price - ltp) * stock.quantity
-                                                stock.purchased = True
-                                                stock.buy_or_sell = Type.Sell
-                                                total_profit_booked_count += 1
-
-                                    if stock.buy_or_sell == Type.Sell:
-                                        if current_price <= negative_range:
-                                            ltp = stock.ltp
-                                            # print_details(stock, current_price, positive_range, negative_range, "Profit booked")
-                                            placed = do_trade(stock, current_price, Type.Buy, stock.quantity * 2, "Profit booked")
-                                            if placed:
-                                                profit += (ltp - current_price) * stock.quantity
-                                                stock.purchased = True
-                                                stock.buy_or_sell = Type.Buy
-                                                total_profit_booked_count += 1
+                                if stock.buy_or_sell == Type.Sell:
+                                    if current_price <= negative_range:
+                                        ltp = stock.ltp
+                                        placed = do_trade(stock, current_price, Type.Buy, stock.quantity, "Profit booked")
+                                        if placed:
+                                            profit += (ltp - current_price) * stock.quantity
+                                            stock.purchased = False
+                                            stock.buy_or_sell = Type.Buy
+                                            total_profit_booked_count += 1
+                                            stock.total_quantity = 0
 
 
-                            except Exception as e:
-                                print_and_log("Exception: {}".format(traceback.print_exc()))
-                        else:
-                            print_and_log("High and low price of the stock is zero or negative")
-                            break
-                            break
+                        except Exception as e:
+                            print_and_log("Exception: {}".format(traceback.print_exc()))
                     else:
-                        print_and_log("Stock found in stop list: {}".format(stock.symbol))
-                    profit_list.append(round(profit, 2))
+                        print_and_log("High and low price of the stock is zero or negative")
+                else:
+                    print_and_log("Stock found in stop list: {}".format(stock.symbol))
+                profit_list.append(round(profit, 2))
 
-                if not back_test:
-                    total_profit = bridge.get_m2m()
-                    print("P & L : " + str(bridge.get_m2m()))
-                    print("Margin: " + str(bridge.get_balace()))
+            if not back_test:
+                total_profit = bridge.get_m2m()
+                print("P & L : " + str(bridge.get_m2m()))
+                print("Margin: " + str(bridge.get_balace()))
 
-                # Calculate floating PL
-                floating_pl = 0
-                for stock in conf_reader.MYDEF:
-                    if stock.purchased:
-                        if stock.buy_or_sell == Type.Buy:
-                            floating_pl += (stock.current_price - stock.ltp) * stock.quantity
-                        else:
-                            floating_pl += (stock.ltp - stock.current_price) * stock.quantity
+            # Calculate floating PL
+            floating_pl = 0
+            for stock in conf_reader.MYDEF:
+                if stock.purchased:
+                    if stock.buy_or_sell == Type.Buy:
+                        floating_pl += (stock.current_price - stock.ltp) * stock.quantity
+                    else:
+                        floating_pl += (stock.ltp - stock.current_price) * stock.quantity
 
-                print_and_log("Floating PL: " + str(round(floating_pl, 2)))
-                print_and_log("Tool Calculated Profit: " + str(round(profit, 2)))
-                print("Max Profit:" + str(round(max(profit_list), 2)))
-                print("Profit + Floating PL: " + str(round(profit + floating_pl, 2)))
-                try:
-                    if total_profit > target_profit:
-                        close_all_positions(profit,bt_dt)
-                except:
-                    pass
-                print("Stop loss hit count - " + str(total_stop_loss_count))
-                print("Profit booked count - " + str(total_profit_booked_count))
-                print("#############################################################################################################")
-                print_and_log("Wating for {} seconds".format(loop_wait_time_sec))
-                if not back_test:
-                    time.sleep(loop_wait_time_sec)
+            print_and_log("Floating PL: " + str(round(floating_pl, 2)))
+            print_and_log("Tool Calculated Profit: " + str(round(profit, 2)))
+            print("Max Profit:" + str(round(max(profit_list), 2)))
+            print("Profit + Floating PL: " + str(round(profit + floating_pl, 2)))
+            try:
+                if total_profit > target_profit:
+                    close_all_positions(profit,bt_dt)
+            except:
+                pass
+            print("Stop loss hit count - " + str(total_stop_loss_count))
+            print("Profit booked count - " + str(total_profit_booked_count))
+            print("#############################################################################################################")
+            print_and_log("Wating for {} seconds".format(loop_wait_time_sec))
+            if not back_test:
+                time.sleep(loop_wait_time_sec)
 
-            if what_next == "wait":
-                print("Waiting for the configured start time")
+        if what_next == "wait":
+            print("Waiting for the configured start time")
 
-            if what_next == "close" or "CLOSEALL" in stop_list:
-                close_all_positions(profit,bt_dt)
+        if what_next == "close" or "CLOSEALL" in stop_list:
+            close_all_positions(profit,bt_dt)
 
 
 
