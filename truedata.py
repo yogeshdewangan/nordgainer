@@ -13,7 +13,8 @@ password = conf_reader.props["truedata_password"]
 realtime_port = 8082
 history_port = 8092
 
-td_app = TD(username, password, live_port=realtime_port, historical_port=history_port)
+td_app = TD(username, password, live_port=realtime_port)
+td_app_hist = TD(username, password, live_port=None)
 
 symbols = conf_reader.ALLSTOCKS
 req_ids = td_app.start_live_data(symbols)
@@ -55,7 +56,7 @@ def get_historic_data(symbol):
         month = int(temp_date[1])
         year = int(temp_date[2])
 
-    hist_data_1 = td_app.get_historic_data(symbol, bar_size="15 min", start_time=datetime(year, month, day, 9, 15), end_time=datetime(year, month, day, 9, 30))  # remove duration for current date
+    hist_data_1 = td_app_hist.get_historic_data(symbol, bar_size="15 min", start_time=datetime(year, month, day, 9, 15), end_time=datetime(year, month, day, 9, 30))  # remove duration for current date
     high = hist_data_1[0]["h"]
     low = hist_data_1[0]["l"]
     open = hist_data_1[0]["o"]
@@ -75,7 +76,7 @@ def get_historic_data_for_backtest(symbol, dt=None):
         month = int(dt.month)
         year = int(dt.year)
 
-    hist_data_1 = td_app.get_historic_data(symbol, bar_size="15 min", start_time=datetime(year, month, day, 9, 15), end_time=datetime(year, month, day, 9, 30))  # remove duration for current date
+    hist_data_1 = td_app.get_historic_data(symbol, bar_size="5 min", start_time=datetime(year, month, day, 9, 15), end_time=datetime(year, month, day, 9, 20))  # remove duration for current date
     high = hist_data_1[0]["h"]
     low = hist_data_1[0]["l"]
     open = hist_data_1[0]["o"]
@@ -94,7 +95,7 @@ def get_price_list_for_back_test(symbol, dt=None):
         month = int(dt.month)
         year = int(dt.year)
     price_list = []
-    hist_data_1 = td_app.get_historic_data(symbol, bar_size="1 min", start_time=datetime(year, month, day, 9, 31), end_time=datetime(year, month, day, 15, 00))  # remove duration for current date
+    hist_data_1 = td_app.get_historic_data(symbol, bar_size="1 min", start_time=datetime(year, month, day, 9, 21), end_time=datetime(year, month, day, 15, 00))  # remove duration for current date
     for i in hist_data_1:
         price_list.append(i["c"])
     return price_list

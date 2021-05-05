@@ -19,6 +19,9 @@ from classes.BACKTEST import  BACKTEST
 # # Enable below to trade with sas onlne alpha
 
 
+from ta.momentum import RSIIndicator
+
+
 broker_name = "SAS Online"
 log = logging.getLogger("IndiBotLog")
 
@@ -167,11 +170,11 @@ def close_all_positions(profit,bt_dt=None):
     # sys.exit()
 
 
-def check_15_min_candle(dt=None):
+def check_5_min_candle(dt=None):
     for stock in conf_reader.MYDEF:
         try:
             high, low, open, close = truedata.get_historic_data_for_backtest(stock.symbol,dt=dt)
-            print_and_log(str(stock.symbol) + " | First 15 min high: " + str(high) + " | low: " + str(low) + " | open: " + str(open) + " | close: " + str(close))
+            print_and_log(str(stock.symbol) + " | First 5 min high: " + str(high) + " | low: " + str(low) + " | open: " + str(open) + " | close: " + str(close))
             log_stock(stock.symbol, "First 15 min high: " + str(high) + " | low: " + str(low) + " | open: " + str(open) + " | close: " + str(close))
             stock.first15_high = high
             stock.first15_low = low

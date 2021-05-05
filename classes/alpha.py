@@ -45,6 +45,11 @@ except:
         print("Not able to connect to SAS Online")
 # netwise = sas.get_netwise_positions()
 
+
+q = sas.get_daywise_positions()
+
+pass
+
 def get_balace():
     try:
         balance = sas.get_balance()
@@ -123,6 +128,7 @@ def purchase_stock(symbol, quantity, buy_or_sell="buy", current_price=0, stop_lo
 
 def squareoff_all():
     res = sas.get_netwise_positions()
+    sas.get_instrument_by_symbol()
     for stock in conf_reader.MYDEF:
         for order in stock.orders:
             try:
